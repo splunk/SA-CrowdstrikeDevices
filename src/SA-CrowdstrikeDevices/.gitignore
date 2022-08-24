@@ -1,0 +1,7 @@
+.DS_STORE
+**/local
+local.meta
+__pycache__/
+.vscode
+venv
+.idea
