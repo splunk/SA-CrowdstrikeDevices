@@ -20,6 +20,7 @@ jobs:
         run: pip install splunk-packaging-toolkit-1.0.1.tar.gz
       - name: Package app
         run: |
+          cd src
           slim package -o ~/build/packages SA-CrowdstrikeDevices
           cd ~/build/packages
       - name: Download and run helper script
