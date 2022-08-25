@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - master
+    types: [opened, ready_for_review]
 jobs:
   validate:
     runs-on: ubuntu-latest
