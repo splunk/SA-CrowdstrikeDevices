@@ -11,6 +11,8 @@ Allows CrowdStrike device information to be used with Splunk Enterprise Security
 
 > This add-on is not affiliated with Crowdstrike and is not sponsored or sanctioned by the Crowdstrike team. As such, the included documentation and configuration does not contain information on how to get started with the Crowdstrike application. Rather, this add-on serves as a guide to help visualize the data in Splunk. Please visit [https://www.crowdstrike.com/](https://www.crowdstrike.com) for more information.
 
+![SA-CrowdstrikeDevices](./docs/assets/sa-crowdstrike-logo-dark.svg)
+
 ## About
 
 Info | Description
