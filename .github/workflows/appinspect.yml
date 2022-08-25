@@ -34,6 +34,10 @@ jobs:
         run: |
           cd ~/build/packages
           validate.sh submit $(ls)
-      - name: Check Status
-        run: |
-          validate.sh status
+      - name: Check Status and get report
+        run: validate.sh status
+      - name: Collect report
+        uses: actions/upload-artifact@v3
+        with:
+          name: appinspect report
+          path: build/reports
