@@ -30,6 +30,8 @@ theme:
   #   favicon:
   icon:
     repo: fontawesome/brands/github
+  logo: assets/sa-crowdstrike-logo-small.svg
+  favicon: assets/sa-crowdstrike-logo-small.svg
   features:
     # - header.autohide
     - navigation.indexes
