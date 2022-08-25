@@ -12,20 +12,24 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.7
+      - name: install dependencies
+        run: sudo apt-get install -y jq
       - name: Download packaging toolkit
         run: wget https://download.splunk.com/misc/packaging-toolkit/splunk-packaging-toolkit-1.0.1.tar.gz
       - name: Install packaging toolkit
         run: pip install splunk-packaging-toolkit-1.0.1.tar.gz
       - name: Package app
         run: |
-          mkdir -p build/{packages,reports}
-          cd src/
-          slim package -o ~/build/package SA-CrowdstrikeDevices
-          cd ~/build/package
+          slim package -o ~/build/packages SA-CrowdstrikeDevices
+          cd ~/build/packages
       - name: Download and run helper script
-        run: wget https://gist.githubusercontent.com/ZachChristensen28/f654dbc203ca1d6cb83a46bf70bfc24e/raw/67a89c8d65d127a7e6fdf98cd4bc17d9e47fde82/zts-appinspect.sh && chmod +x zts-appinspect.sh
+        run: wget https://raw.githubusercontent.com/ZachChristensen28/splunk-app-dev/master/validate.sh && chmod +x validate.sh
       - name: Validate credentials
         run: |
           export API_USER=${{ secrets.API_USER }}
           export API_PASS=${{ secrets.API_PASS }}
-          ./zts-appinspect.sh -v
+          ./validate.sh -v
+      - name: Submit App for vetting
+        run: ./validate.sh submit $(ls)
+      - name: Check Status
+        run: ./validate.sh status
