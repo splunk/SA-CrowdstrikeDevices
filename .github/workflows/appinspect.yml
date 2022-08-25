@@ -24,11 +24,11 @@ jobs:
           slim package -o ~/build/packages SA-CrowdstrikeDevices
       - name: Download and run helper script
         run: |
-          cd ~/build/packages
+          mkdir -p ~/.local/bin
+          cd ~/.local/bin
           wget https://raw.githubusercontent.com/ZachChristensen28/splunk-app-dev/master/validate.sh && chmod +x validate.sh
       - name: Validate credentials
         run: |
-          cd ~/build/packages
           API_USER='${{ secrets.API_USER }}' API_PASS='${{ secrets.API_PASS }}' DEBUG="true" ./validate.sh -v
       - name: Submit App for vetting
         run: |
@@ -36,6 +36,4 @@ jobs:
           ./validate.sh submit $(ls)
       - name: Check Status
         run: |
-          cd ~/build/packages
-          echo $PATH
           ./validate.sh status
