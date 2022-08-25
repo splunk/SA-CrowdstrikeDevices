@@ -46,7 +46,5 @@ jobs:
         with:
           name: appinspect report
           path: ~/build/reports/
-      - name: Check Appinspect for errors
-        run: test -e ~/errors.txt && echo "Errors found" && exit 1
-      - name: Check Appinspect for failures
-        run: test -e ~/failures.txt && echo "Failures found" && exit 1
+      - name: Check Appinspect for issues
+        run: validate.sh get_errors
