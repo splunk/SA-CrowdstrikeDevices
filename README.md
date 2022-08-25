@@ -1,4 +1,4 @@
-# SA-CrowdstrikeDevices
+# SA-CrowdstrikeDevices for Splunk Enterprise Security
 
 [![GitHub](https://img.shields.io/github/license/ZachChristensen28/SA-CrowdstrikeDevices)]()
 [![Docs](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/docs.yml/badge.svg)](https://splunk-sa-crowdstrike.ztsplunker.com/)
@@ -6,6 +6,7 @@
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ZachChristensen28/SA-CrowdstrikeDevices)
 [![Splunkbase App](https://img.shields.io/badge/Splunkbase-SA--CrowdstrikeDevices-blue)](https://splunkbase.splunk.com/app/4505/)
 [![Splunk ES Compatibility](https://img.shields.io/badge/Splunk%20ES%20Compatibility-7.x%20|%206.x-success)](https://splunkbase.splunk.com/app/263)
+![Splunk Cloud Compatibility](https://img.shields.io/badge/Splunk%20Cloud%20Ready-Victoria%20|%20Classic-informational?logo=splunk)
 
 This supporting add-on comes with prebuilt content for CrowdStrike device data to be easily used with Splunk Enterprise Security's asset database.
 
