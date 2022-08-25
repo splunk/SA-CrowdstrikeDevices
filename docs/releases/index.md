@@ -1,6 +1,6 @@
 # Release notes
 
-## v1.0.0 <small>August 25, 2022</small>
+## v1.0.1 <small>August 25, 2022</small>
 
 ### Compatibility
 
@@ -11,6 +11,7 @@ Splunk Enterprise Security version | [7.x, 6.x](https://splunkbase.splunk.com/ap
 Crowdstrike Device Add-on Version | [3.x](https://splunkbase.splunk.com/app/5570)
 
 - Initial Release
+- Hotfix for missing `_key` field in saved search.
 
 ## Known issues
 
