@@ -26,10 +26,7 @@ jobs:
       - name: Download and run helper script
         run: wget https://raw.githubusercontent.com/ZachChristensen28/splunk-app-dev/master/validate.sh && chmod +x validate.sh
       - name: Validate credentials
-        env:
-          API_USER: ${{ secrets.API_USER }}
-          API_PASS: ${{ secrets.API_PASS }}
-        run: DEBUG="true" ./validate.sh -v
+        run: API_USER='${{ secrets.API_USER }}' API_PASS='${{ secrets.API_PASS }}'DEBUG="true" ./validate.sh -v
       - name: Submit App for vetting
         run: ./validate.sh submit $(ls)
       - name: Check Status
