@@ -1,11 +1,11 @@
 name: splunk-appinspect
 on:
-  push:
+  pull_request:
     branches:
-      - devel
-      - development
+      - main
+      - master
 jobs:
-  deploy:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -46,6 +46,6 @@ jobs:
           name: appinspect report
           path: ~/build/reports/
       - name: Check Appinspect for errors
-        run: |
-          test -e errors.txt && echo "Errors found" && exit 1
-          test -e failures.txt && echo "Failures found" && exit 1
+        run: test -e ~/errors.txt && echo "Errors found" && exit 1
+      - name: Check Appinspect for failures
+        run: test -e ~/failures.txt && echo "Failures found" && exit 1
