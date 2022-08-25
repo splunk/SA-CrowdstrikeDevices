@@ -1,0 +1,83 @@
+site_name: SA-CrowdstrikeDevices
+edit_uri: ""
+repo_url: https://github.com/ZachChristensen28/SA-CrowdstrikeDevices
+repo_name: ZachChristensen28/SA-CrowdstrikeDevices
+
+plugins:
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - attr_list
+  - meta
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - abbr
+  - pymdownx.snippets
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+
+theme:
+  name: material
+  #   logo:
+  #   favicon:
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    # - header.autohide
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    # - toc.integrate
+    - navigation.tracking
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/zachary-christensen28/
+    - icon: fontawesome/brands/github
+      link: https://github.com/ZachChristensen28
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ZachTheSplunker
+
+nav:
+  - Home: index.md
+  - Quick Start: quickstart/index.md
+  - Configure:
+      - configure/index.md
+      - Update Priority: configure/priority.md
+      - Update Category: configure/category.md
+      - Update Business Unit: configure/bunit.md
+  - Reference:
+      - All Configurations: reference/all-configurations.md
+      - Asset Database mapping: reference/asset-mapping.md
+      - Crowdstrike Fields:
+          - Categories: reference/category.md
+  - Release Notes:
+      - Release Notes: releases/index.md
+      # - Release History: reference/releases/release-history.md

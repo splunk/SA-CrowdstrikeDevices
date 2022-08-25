@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
   "info": {
     "title": "SA-CrowdstrikeDevices",
     "id": {
@@ -15,11 +15,15 @@
       }
     ],
     "releaseDate": null,
-    "description": "",
+    "description": "The SA-CrowdstrikeDevices add-on allows Splunk Enterprise Security admins to use Crowdstrike device data with the Asset Database.",
     "classification": {
-      "intendedAudience": null,
-      "categories": [],
-      "developmentStatus": null
+      "intendedAudience": "Security",
+      "categories": [
+        "Endpoint",
+        "Security, Fraud, & Compliance",
+        "Information"
+      ],
+      "developmentStatus": "Production/Stable"
     },
     "commonInformationModels": null,
     "license": {
@@ -33,21 +37,30 @@
       "uri": null
     },
     "releaseNotes": {
-      "name": null,
-      "text": null,
-      "uri": null
+      "name": "README",
+      "uri": "https://splunk-sa-crowdstrike.ztsplunker.com/reference/releases/"
     }
   },
   "dependencies": {
-  },
-  "tasks": [],
-  "inputGroups": {
-  },
-  "incompatibleApps": {
-  },
-  "platformRequirements": {
-    "splunk": {
-      "Enterprise": "*"
+    "TA-crowdstrike-falcon-devices": {
+      "version": ">=3.0.0",
+      "optional": true
+    },
+    "SplunkEnterpriseSecuritySuite": {
+      "version": ">=6.0.0",
+      "optional": false
     }
-  }
+  },
+  "tasks": [
+    "identity_manager://crowdstrike_devices"
+  ],
+  "inputGroups": null,
+  "incompatibleApps": null,
+  "platformRequirements": null,
+  "supportedDeployments": [
+    "*"
+  ],
+  "targetWorkloads": [
+    "_search_heads"
+  ]
 }

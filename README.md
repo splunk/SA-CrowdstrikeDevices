@@ -11,13 +11,12 @@ Allows CrowdStrike device information to be used with Splunk Enterprise Security
 
 ## About
 
- Info | Description
+Info | Description
 ------|----------
-Version | 1.0.0
-Splunk Version Compatibility | **Splunk** 9.x, 8.x \| **ES** 7.x, 6.x
-Vendor Product | [Crowdstrike](https://www.crowdstrike.com/)
-Prerequisites | [CrowdStrike Falcon Devices Technical Add-on](https://splunkbase.splunk.com/app/5570/)
-Add-on has a web UI | No. This add-on does not contain any views.
+Version | 1.0.0 - [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
+Splunk Enterprise Security Version | 7.x, 6.x
+Crowdstrike Devices Add-on | 3.x - [see on Splunkbase](https://splunkbase.splunk.com/app/5570)
+Add-on has a web UI | No, this add-on does not contain views.
 
 ```TEXT
 Version 1.0.0
