@@ -42,4 +42,8 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: appinspect report
-          path: build/reports
+          path: build/reports/
+      - name: Check Appinspect for errors
+        run: |
+          test -f errors.txt && echo "Errors found" && exit 1
+          test -f failures.txt && echo "Failures found" && exit 1
