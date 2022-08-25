@@ -29,15 +29,16 @@ Full documentation can be found at [https://splunk-sa-crowdstrike.ztsplunker.com
 
 Info | Description
 ------|----------
-SA-CrowdstrikeDevices | 1.0.0 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
+SA-CrowdstrikeDevices | 1.0.1 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
 Splunk Enterprise Security Version <small>(Required)</small> | [7.x, 6.x](https://splunkbase.splunk.com/app/263)
 Crowdstrike Devices Add-on <small>(Required)</small> | [3.x](https://splunkbase.splunk.com/app/5570)
 Add-on has a web UI | No, this add-on does not contain views.
 
 ```TEXT
-Version 1.0.0
+Version 1.0.1
 
-Initial release
+- Initial release
+- Hotfix for missing `_key` field in saved search.
 ```
 
 ## Bugs
