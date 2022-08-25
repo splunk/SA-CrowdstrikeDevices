@@ -35,4 +35,7 @@ jobs:
           cd ~/build/packages
           ./validate.sh submit $(ls)
       - name: Check Status
-        run: ./validate.sh status
+        run: |
+          cd ~/build/packages
+          echo $PATH
+          ./validate.sh status
