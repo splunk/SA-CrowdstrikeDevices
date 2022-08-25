@@ -30,9 +30,9 @@ This documentation assumes the following:
 
 Info | Description
 ------|----------
-SA-CrowdstrikeDevices | 1.0.0 - [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
+SA-CrowdstrikeDevices | 1.0.1 - [Splunkbase](https://splunkbase.splunk.com/app/6573) [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
 Splunk Enterprise Security Version <small>(Required)</small> | [7.x, 6.x](https://splunkbase.splunk.com/app/263)
 Crowdstrike Devices Add-on <small>(Required)</small> | [3.x](https://splunkbase.splunk.com/app/5570)
 Add-on has a web UI | No, this add-on does not contain views.
 
-[Quick Start](quickstart){ .md-button .md-button--primary }
+[Quick Start](quickstart/install){ .md-button .md-button--primary }

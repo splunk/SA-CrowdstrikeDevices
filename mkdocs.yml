@@ -69,7 +69,9 @@ extra:
 
 nav:
   - Home: index.md
-  - Quick Start: quickstart/index.md
+  - Quick Start:
+      - Install: quickstart/install.md
+      - Quickstart: quickstart/quickstart.md
   - Configure:
       - configure/index.md
       - Update Priority: configure/priority.md
@@ -80,6 +82,10 @@ nav:
       - Asset Database mapping: reference/asset-mapping.md
       - Crowdstrike Fields:
           - Categories: reference/category.md
+  - Troubleshooting:
+      - troubleshooting/index.md
+      - Solutions Guide:
+          - Asset Merge: troubleshooting/solution-guides/asset-merge.md
   - Release Notes:
       - Release Notes: releases/index.md
-      # - Release History: reference/releases/release-history.md
+      - Release History: releases/release-history.md
