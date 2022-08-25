@@ -1,7 +1,9 @@
 # SA-CrowdstrikeDevices
 
 [![GitHub](https://img.shields.io/github/license/ZachChristensen28/SA-CrowdstrikeDevices)]()
+[![Docs](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/ci.yml/badge.svg)](https://splunk-sa-crowdstrike.ztsplunker.com/)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ZachChristensen28/SA-CrowdstrikeDevices)
+[![Splunk ES Compatibility](https://img.shields.io/badge/Splunk%20ES%20Version-7.x%20|%206.x-success)](https://splunkbase.splunk.com/app/263)
 
 Allows CrowdStrike device information to be used with Splunk Enterprise Security's asset database.
 
@@ -13,9 +15,9 @@ Allows CrowdStrike device information to be used with Splunk Enterprise Security
 
 Info | Description
 ------|----------
-Version | 1.0.0 - [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
-Splunk Enterprise Security Version | 7.x, 6.x
-Crowdstrike Devices Add-on | 3.x - [see on Splunkbase](https://splunkbase.splunk.com/app/5570)
+SA-CrowdstrikeDevices | 1.0.0 - [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
+Splunk Enterprise Security Version <small>(Required)</small> | [7.x, 6.x](https://splunkbase.splunk.com/app/263)
+Crowdstrike Devices Add-on <small>(Required)</small> | [3.x](https://splunkbase.splunk.com/app/5570)
 Add-on has a web UI | No, this add-on does not contain views.
 
 ```TEXT
