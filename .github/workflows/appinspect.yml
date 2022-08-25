@@ -46,5 +46,10 @@ jobs:
         with:
           name: appinspect report
           path: ~/build/reports/
+      - name: Collect app package
+        uses: actions/upload-artifact@v3
+        with:
+          name: App package
+          path: ~/build/packages/
       - name: Check Appinspect for issues
         run: validate.sh get_errors
