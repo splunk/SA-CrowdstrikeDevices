@@ -3,7 +3,7 @@
 [![GitHub](https://img.shields.io/github/license/ZachChristensen28/SA-CrowdstrikeDevices)]()
 [![Docs](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/ci.yml/badge.svg)](https://splunk-sa-crowdstrike.ztsplunker.com/)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ZachChristensen28/SA-CrowdstrikeDevices)
-[![Splunk ES Compatibility](https://img.shields.io/badge/Splunk%20ES%20Version-7.x%20|%206.x-success)](https://splunkbase.splunk.com/app/263)
+[![Splunk ES Compatibility](https://img.shields.io/badge/Splunk%20ES%20Compatibility-7.x%20|%206.x-success)](https://splunkbase.splunk.com/app/263)
 
 Allows CrowdStrike device information to be used with Splunk Enterprise Security's asset database.
 
