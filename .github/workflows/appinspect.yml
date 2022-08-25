@@ -14,5 +14,5 @@ jobs:
           python-version: 3.7
       - name: Download packaging toolkit
         run: |
-        wget https://download.splunk.com/misc/packaging-toolkit/splunk-packaging-toolkit-1.0.1.tar.gz
-        pip install splunk-packaging-toolkit-1.0.1.tar.gz
+          wget https://download.splunk.com/misc/packaging-toolkit/splunk-packaging-toolkit-1.0.1.tar.gz
+          pip install splunk-packaging-toolkit-1.0.1.tar.gz
