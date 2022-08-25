@@ -2,7 +2,7 @@
 
 [![GitHub](https://img.shields.io/github/license/ZachChristensen28/SA-CrowdstrikeDevices)]()
 [![Docs](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/docs.yml/badge.svg)](https://splunk-sa-crowdstrike.ztsplunker.com/)
-[![Appinspect](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/appinspect.yml/badge.svg)](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/suites/7985519974/artifacts/341837669)
+![Appinspect](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/appinspect.yml/badge.svg)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ZachChristensen28/SA-CrowdstrikeDevices)
 [![Splunkbase App](https://img.shields.io/badge/Splunkbase-SA--CrowdstrikeDevices-blue)](https://splunkbase.splunk.com/app/4505/)
 [![Splunk ES Compatibility](https://img.shields.io/badge/Splunk%20ES%20Compatibility-7.x%20|%206.x-success)](https://splunkbase.splunk.com/app/263)
