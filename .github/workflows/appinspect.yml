@@ -22,4 +22,4 @@ jobs:
           cd src/
           slim package -o ~/build/package SA-CrowdstrikeDevices
       - name: Download and run helper script
-        run: curl -sS https://gist.githubusercontent.com/ZachChristensen28/f654dbc203ca1d6cb83a46bf70bfc24e/raw/495fcf17e3af824f284d236bf30539c859c72854/zts-appinspect.sh | bash -s submit
+        run: curl -sS https://gist.githubusercontent.com/ZachChristensen28/f654dbc203ca1d6cb83a46bf70bfc24e/raw/495fcf17e3af824f284d236bf30539c859c72854/zts-appinspect.sh | API_USER=${{ secrets.API_USER }} bash submit
