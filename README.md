@@ -16,7 +16,7 @@ Full documentation can be found at [https://splunk-sa-crowdstrike.ztsplunker.com
 
 ```
 
-** Splunk Enterprise Security is required in order to use this supporting add-on **
+** This supporting add-on is only intended to work with Splunk Enterprise Security deployments **
 
 ```
 
@@ -24,14 +24,14 @@ Full documentation can be found at [https://splunk-sa-crowdstrike.ztsplunker.com
 
 ## Disclaimer
 
-> This add-on is not affiliated with Crowdstrike and is not sponsored or sanctioned by the Crowdstrike team. As such, the included documentation and configuration does not contain information on how to get started with the Crowdstrike application. Rather, this add-on serves as a guide to help visualize the data in Splunk. Please visit [https://www.crowdstrike.com/](https://www.crowdstrike.com) for more information.
+> *This Splunk Supporting Add-on is __not__ affiliated with* [__Crowdstrike, Inc.__](https://www.crowdstrike.com) *and is not sponsored or sanctioned by the Crowdstrike team. As such, the included documentation does not contain information on how to get started with the Crowdstrike. Rather, this documentation serves as a guide to use Crowdstrike device data with Splunk Enterprise Security. Please visit [https://www.crowdstrike.com](https://www.crowdstrike.com) for more information about Crowdstrike.*
 
 ## About
 
 Info | Description
 ------|----------
-SA-CrowdstrikeDevices | 1.0.1 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
-Splunk Enterprise Security Version <small>(Required)</small> | [7.x, 6.x](https://splunkbase.splunk.com/app/263)
+SA-CrowdstrikeDevices | 1.0.1 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) \| [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
+Splunk Enterprise Security Version <small>(Required)</small> | [7.x \| 6.x](https://splunkbase.splunk.com/app/263)
 Crowdstrike Devices Add-on <small>(Required)</small> | [3.x](https://splunkbase.splunk.com/app/5570)
 Add-on has a web UI | No, this add-on does not contain views.
 
@@ -42,6 +42,6 @@ Version 1.0.1
 - Hotfix for missing `_key` field in saved search.
 ```
 
-## Bugs
+## Issues or Feature Request
 
-Please open an issue at [github.com](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues)
+Please open an issue or feature request on [Github](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues)
