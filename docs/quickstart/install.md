@@ -1,7 +1,7 @@
 # Install
 
 !!! important
-    This supporting add-on must be installed alongside Splunk Enterprise Security.
+    This supporting add-on must be installed alongside Splunk Enterprise Security. Ensure the [prequisites](../prerequisites) have been completed before proceeding.
 
 For detailed information on where to install Splunk Apps/add-ons, including best practices, can be found at [Splunk Docs: About Installing Splunk add-ons](https://docs.splunk.com/Documentation/AddOns/released/Overview/Wheretoinstall)
 
