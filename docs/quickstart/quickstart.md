@@ -27,6 +27,8 @@ Macro | Default | Description
 1. Set the "Owner" dropdown to `any`.
 1. Click the macro named `sa_crowdstrike_index` to update the index definition.
 
+---
+
 ## Enable asset correlation
 
 Confirm asset correlation has been setup in Enterprise Security.
@@ -37,11 +39,15 @@ Confirm asset correlation has been setup in Enterprise Security.
     - If you choose to enable select sourcetypes, ensure the `stash` sourcetype is also selected so Notable events will be enriched with asset information.
 1. Save.
 
+---
+
 ## Disable existing asset sources
 
 !!! info "optional"
 
-It may be possible that you have existing Asset Lookups defined. If Crowdstrike is widely deployed in your environment the other existing lookups may no longer be needed.
+It may be possible that you have existing Asset Lookups defined. If Crowdstrike is widely deployed in your environment the existing lookups may no longer be needed.
+
+---
 
 ## Update default saved search schedule
 
