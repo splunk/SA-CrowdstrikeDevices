@@ -70,6 +70,7 @@ extra:
 nav:
   - Home: index.md
   - Quick Start:
+      - Prerequisites: quickstart/prerequisites.md
       - Install: quickstart/install.md
       - Quickstart: quickstart/quickstart.md
   - Configure:

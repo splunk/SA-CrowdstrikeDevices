@@ -4,7 +4,8 @@ on:
     branches:
       - main
       - master
-      - "!docs/**"
+    paths:
+      - "src/**"
     types: [opened, ready_for_review]
 jobs:
   validate:

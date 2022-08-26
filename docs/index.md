@@ -35,4 +35,4 @@ Splunk Enterprise Security Version <small>(Required)</small> | [7.x, 6.x](https:
 Crowdstrike Devices Add-on <small>(Required)</small> | [3.x](https://splunkbase.splunk.com/app/5570)
 Add-on has a web UI | No, this add-on does not contain views.
 
-[Quick Start](quickstart/install){ .md-button .md-button--primary }
+[Quick Start](quickstart/install-dependencies){ .md-button .md-button--primary }
