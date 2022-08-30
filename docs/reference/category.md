@@ -21,8 +21,11 @@ cs_sys_mf | `falcon_device.system_manufacturer` | hp
 cs_sys_name | `falcon_device.system_product_name` | hp_elitebook_850_g7_notebook_pc
 cs_external_ip | `falcon_device.external_ip` | 0.0.0.0
 cs_tags | `falcon_device.tags{}` | n/a
+cs_first_seen | `falcon_device.first_seen` | 02/14/22 09:52:05 MST
+cs_last_seen | `falcon_device.first_seen` | 08/24/22 13:25:24 MDT
+splunk_last_update | n/a | 08/26/22 18:54:42 MDT
 
-Full example of category value
+### Full example of category value
 
 ```text
 cs_agent_version:6.40.15406.0
@@ -41,4 +44,7 @@ cs_os_platform:windows
 cs_sys_mf:hp
 cs_sys_name:hp_elitebook_850_g7_notebook_pc
 cs_uninstallprotection:enabled
+cs_first_seen:02/14/22 09:52:05 MST
+cs_last_seen:08/24/22 13:25:24 MDT
+splunk_last_updated:08/26/22 18:54:42 MDT
 ```
