@@ -1,6 +1,6 @@
 # Release notes
 
-## v1.0.1 <small>August 25, 2022</small>
+## v1.0.2 <small>placeholder</small>
 
 ### Compatibility
 
@@ -10,8 +10,13 @@ Splunk platform versions | 9.x, 8.x
 Splunk Enterprise Security version | [7.x, 6.x](https://splunkbase.splunk.com/app/263)
 Crowdstrike Device Add-on Version | [3.x](https://splunkbase.splunk.com/app/5570)
 
-- Initial Release
-- Hotfix for missing `_key` field in saved search.
+### New
+
+- added `first_seen`, `last_seen`, and `last_updated` to category field ([#8](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/8)).
+
+### Updated
+
+- Changed app logo background to transparent.
 
 ## Known issues
 
