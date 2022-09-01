@@ -6,7 +6,7 @@ on:
       - master
     paths:
       - "src/**"
-    types: [opened, ready_for_review, synchronize]
+    types: [opened, ready_for_review]
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -34,28 +34,24 @@ jobs:
         run: |
           API_USER='${{ secrets.API_USER }}' API_PASS='${{ secrets.API_PASS }}' validate.sh -v
       - name: Submit App for vetting
-        id: app
         run: |
           cd ~/build/packages
           validate.sh submit $(ls)
-          echo "::set-output name=app::$(realpath $(ls))"
       - name: Check Status
         run: validate.sh status
       - name: Get report
-        id: report
         run: |
           validate.sh report
-          cd ~/build/reports
-          echo "::set-output name=report::$(realpath $(ls))"
+          ls ~/build/reports
       - name: Collect report
         uses: actions/upload-artifact@v3
         with:
           name: appinspect report
-          path: ${{ steps.report.outputs.report }}
+          path: ~/build/reports/
       - name: Collect app package
         uses: actions/upload-artifact@v3
         with:
           name: App package
-          path: ${{ steps.app.outputs.app }}
+          path: ~/build/packages/
       - name: Check Appinspect for issues
         run: validate.sh get_errors
