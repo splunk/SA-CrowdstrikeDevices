@@ -1,6 +1,6 @@
 # SA-CrowdstrikeDevices for Splunk Enterprise Security
 
-[![GitHub](https://img.shields.io/github/license/ZachChristensen28/SA-CrowdstrikeDevices)]()
+![GitHub](https://img.shields.io/github/license/zachchristensen28/SA-CrowdstrikeDevices)
 [![Docs](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/docs.yml/badge.svg)](https://splunk-sa-crowdstrike.ztsplunker.com/)
 ![Appinspect](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/appinspect.yml/badge.svg)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ZachChristensen28/SA-CrowdstrikeDevices)
@@ -14,7 +14,7 @@ This supporting add-on comes with prebuilt content for CrowdStrike device data t
 
 Full documentation can be found at [https://splunk-sa-crowdstrike.ztsplunker.com](https://splunk-sa-crowdstrike.ztsplunker.com)
 
-```
+```markdown
 
 ** This supporting add-on is only intended to work with Splunk Enterprise Security deployments **
 
@@ -47,4 +47,4 @@ Updated
 
 ## Issues or Feature Request
 
-Please open an issue or feature request on [Github](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues)
+Please open an issue or feature request on [Github](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues).
