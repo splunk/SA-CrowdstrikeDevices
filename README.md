@@ -8,7 +8,7 @@
 [![Splunk ES Compatibility](https://img.shields.io/badge/Splunk%20ES%20Compatibility-7.x%20|%206.x-success)](https://splunkbase.splunk.com/app/263)
 ![Splunk Cloud Compatibility](https://img.shields.io/badge/Splunk%20Cloud%20Ready-Victoria%20|%20Classic-informational?logo=splunk)
 
-![SA-CrowdstrikeDevices](./docs/assets/sa-crowdstrike-logo-dark.svg)
+[![SA-CrowdstrikeDevices](./docs/assets/sa-crowdstrike-logo-dark.svg)](https://splunk-sa-crowdstrike.ztsplunker.com)
 
 This supporting add-on comes with prebuilt content for CrowdStrike device data to be easily used with Splunk Enterprise Security's asset database.
 
@@ -31,11 +31,11 @@ Full documentation can be found at [https://splunk-sa-crowdstrike.ztsplunker.com
 Info | Description
 ------|----------
 SA-CrowdstrikeDevices | 1.0.2 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) \| [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
-Splunk Enterprise Security Version <small>(Required)</small> | [7.x \| 6.x](https://splunkbase.splunk.com/app/263)
-Crowdstrike Devices Add-on <small>(Required)</small> | [3.x](https://splunkbase.splunk.com/app/5570)
+Splunk Enterprise Security Version (Required) | [7.x \| 6.x](https://splunkbase.splunk.com/app/263)
+Crowdstrike Devices Add-on (Required) | [3.x](https://splunkbase.splunk.com/app/5570)
 Add-on has a web UI | No, this add-on does not contain views.
 
-```TEXT
+```text
 Version 1.0.2
 
 New
@@ -45,6 +45,6 @@ Updated
 - Changed app logo background to transparent.
 ```
 
-## Issues or Feature Request
+## Issues or Feature Requests
 
 Please open an issue or feature request on [Github](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues).
