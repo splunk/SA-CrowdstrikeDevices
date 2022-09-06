@@ -15,7 +15,7 @@ The SA-CrowdstrikeDevices add-on allows Splunk Enterprise Security admins to use
 !!! quote ""
     __*Disclaimer*__
 
-    *This Splunk Supporting Add-on is __not__ affiliated with* [__Crowdstrike, Inc.__](https://www.crowdstrike.com) *and is not sponsored or sanctioned by the Crowdstrike team. As such, the included documentation does not contain information on how to get started with the Crowdstrike. Rather, this documentation serves as a guide to use Crowdstrike device data with Splunk Enterprise Security. Please visit [https://www.crowdstrike.com](https://www.crowdstrike.com) for more information about Crowdstrike.*
+    *This Splunk Supporting Add-on is __not__ affiliated with [__Crowdstrike, Inc.__](https://www.crowdstrike.com) and is not sponsored or sanctioned by the Crowdstrike team. As such, the included documentation does not contain information on how to get started with Crowdstrike. Rather, this documentation serves as a guide to use Crowdstrike device data with Splunk Enterprise Security. Please visit [https://www.crowdstrike.com](https://www.crowdstrike.com) for more information about Crowdstrike.*
 
 ## Assumptions
 
