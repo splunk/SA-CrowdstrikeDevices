@@ -12,7 +12,7 @@ This supporting add-on comes with prebuilt content for CrowdStrike device data t
 
 ## Documentation
 
-Full documentation can be found at [https://splunk-sa-crowdstrike.ztsplunker.com](https://splunk-sa-crowdstrike.ztsplunker.com)
+Full documentation can be found at [https://splunk-sa-crowdstrike.ztsplunker.com](https://splunk-sa-crowdstrike.ztsplunker.com).
 
 ```markdown
 
