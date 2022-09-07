@@ -13,15 +13,15 @@ This add-on has a saved search and Asset configuration input enabled by default.
 ## Update default macro
 
 !!! danger "[Danger, Will Robinson](https://cultural-phenomenons.fandom.com/wiki/Danger,_Will_Robinson)"
-    Failure to update the macro to the correct setting will cause the no devices to be available in Splunk Enterprise Security.
+    Failure to update the macro to the correct setting will cause no devices to be available in Splunk Enterprise Security.
 
 Macro | Default | Description
 ----- | ------- | -----------
 `sa_crowdstrike_index` | index=crowdstrike | Index definition for Crowdstrike devices index.
 
-> \*update the index definition to the correct index that contains the `crowdstrike:device:json` sourcetype.
-
 ### Update Macro Procedure
+
+!!! note "Update the index definition to the correct index that contains the `crowdstrike:device:json` sourcetype."
 
 1. Navigate to Settings > Advanced Search > Search Macros.
 1. From the "App" dropdown choose `SA-CrowdstrikeDevices`.
