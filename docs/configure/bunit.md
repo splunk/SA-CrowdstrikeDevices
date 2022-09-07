@@ -4,6 +4,6 @@
 
 The bunit field will most likely need to be updated. Every organization will have different values for this field. The current configuration is described in the following table.
 
-Mapped Field | Crowdstrike field
+Mapped Field | Crowdstrike fields
 ------------ | -----------------
-bunit | `falcon_device.ou{}`
+bunit | `falcon_device.ou{}`, `falcon_device.site_name`

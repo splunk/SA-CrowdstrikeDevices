@@ -13,6 +13,7 @@ Crowdstrike Device Add-on Version | [3.x](https://splunkbase.splunk.com/app/5570
 ### New
 
 - added `first_seen`, `last_seen`, and `last_updated` to category field ([#8](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/8)).
+- added `site_name` to existing `bunit` field ([#13](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/13)).
 
 ### Updated
 
