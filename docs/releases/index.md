@@ -18,6 +18,10 @@ Crowdstrike Device Add-on Version | [3.x](https://splunkbase.splunk.com/app/5570
 
 - Changed app logo background to transparent.
 
+### Fixed
+
+- Updated saved search to preserve hosts with multiple IP/MAC addresses ([#11](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/11)).
+
 ## Known issues
 
 This version of the SA-CrowdstrikeDevices add-on for Splunk has the following known issues. If no issues appear here, no issues have been reported. Issues can be reported on the [SA-CrowdstrikeDevices's Github page](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues).

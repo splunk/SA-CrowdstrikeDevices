@@ -39,6 +39,9 @@ New
 
 Updated
 - Changed app logo background to transparent.
+
+Fixed
+- Updated saved search to preserve hosts with multiple IP/MAC addresses (#11).
 ```
 
 ## Issues or Feature Requests
