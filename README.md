@@ -36,6 +36,7 @@ Version 1.0.2
 
 New
 - added `first_seen`, `last_seen`, and `last_updated` to category field (#8).
+- added `site_name` to existing `bunit` field (#13).
 
 Updated
 - Changed app logo background to transparent.
