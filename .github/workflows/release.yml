@@ -1,0 +1,26 @@
+name: release
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - "src/**"
+jobs:
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: sudo apt-get install -y jq
+      - name: Get version
+        id: version
+        run: echo "::set-output name=version::$(cat src/SA-CrowdstrikeDevices/app.manifest | jq -r .info.id.version)"
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true
+          name: SA-CrowdstrikeDevices v${{ steps.version.outputs.version }}
+          tag_name: v${{ steps.version.outputs.version }}

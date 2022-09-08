@@ -1,6 +1,6 @@
 # Priority Field
 
-!!! info "To update the `priority` field modify the `Crowdstrike Devices Lookup - Gen` saved search."
+!!! info "To update the `priority` field modify the `Crowdstrike Devices Lookup - Gen` saved search. It is recommended to clone the default search before making changes (see [Clone Saved Search](../best-practice/clone-search))."
 
 The priority field is very generic by default and should be updated to suite your environment. The following table describes how this field is set.
 

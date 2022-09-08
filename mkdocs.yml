@@ -78,11 +78,14 @@ nav:
       - Update Priority: configure/priority.md
       - Update Category: configure/category.md
       - Update Business Unit: configure/bunit.md
+      - Update Schedule: configure/schedule.md
+      - Best Practice:
+          - Clone Saved Search: configure/best-practice/clone-search.md
   - Reference:
       - All Configurations: reference/all-configurations.md
       - Asset Database mapping: reference/asset-mapping.md
-      - Crowdstrike Fields:
-          - Categories: reference/category.md
+      - Field reference:
+          - Category: reference/category.md
   - Troubleshooting:
       - troubleshooting/index.md
       - Solutions Guide:
