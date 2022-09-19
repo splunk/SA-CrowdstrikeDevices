@@ -84,6 +84,7 @@ nav:
   - Reference:
       - All Configurations: reference/all-configurations.md
       - Asset Database mapping: reference/asset-mapping.md
+      - Example Output: reference/example.md
       - Field reference:
           - Category: reference/category.md
   - Troubleshooting:
