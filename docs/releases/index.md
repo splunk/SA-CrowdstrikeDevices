@@ -1,6 +1,6 @@
 # Release notes
 
-## v1.0.2 <small>placeholder</small>
+## v1.0.3 <small>September 20, 2022</small>
 
 ### Compatibility
 
@@ -12,16 +12,13 @@ Crowdstrike Device Add-on Version | [3.x](https://splunkbase.splunk.com/app/5570
 
 ### New
 
-- added `first_seen`, `last_seen`, and `last_updated` to category field ([#8](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/8)).
-- added `site_name` to existing `bunit` field ([#13](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/13)).
+- added cleanup search to remove old/stale devices ([#18](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/18)).
+- added search macro for device retention period ([#18](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/18)).
 
 ### Updated
 
-- Changed app logo background to transparent.
-
-### Fixed
-
-- Updated saved search to preserve hosts with multiple IP/MAC addresses ([#11](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/11)).
+- updated collection to include last seen field ([#18](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/18)).
+- updated lookup generating search to include last time seen ([#18](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/18)).
 
 ## Known issues
 
