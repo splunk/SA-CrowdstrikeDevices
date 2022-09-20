@@ -26,23 +26,21 @@ Full documentation can be found at [https://splunk-sa-crowdstrike.ztsplunker.com
 
 Info | Description
 ------|----------
-SA-CrowdstrikeDevices | 1.0.2 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) \| [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
+SA-CrowdstrikeDevices | 1.0.3 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) \| [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
 Splunk Enterprise Security Version (Required) | [7.x \| 6.x](https://splunkbase.splunk.com/app/263)
 Crowdstrike Devices Add-on (Required) | [3.x](https://splunkbase.splunk.com/app/5570)
 Add-on has a web UI | No, this add-on does not contain views.
 
 ```text
-Version 1.0.2
+Version 1.0.3
 
 New
-- added `first_seen`, `last_seen`, and `last_updated` to category field (#8).
-- added `site_name` to existing `bunit` field (#13).
+- added cleanup search to remove old/stale devices (#18).
+- added search macro for device retention period (#18).
 
 Updated
-- Changed app logo background to transparent.
-
-Fixed
-- Updated saved search to preserve hosts with multiple IP/MAC addresses (#11).
+- updated collection to include last seen field (#18).
+- updated lookup generating search to include last time seen (#18).
 ```
 
 ## Issues or Feature Requests
