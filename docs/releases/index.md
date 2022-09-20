@@ -1,6 +1,6 @@
 # Release notes
 
-## v1.0.3 <small>September 20, 2022</small>
+## [v1.0.3 <small>September 20, 2022</small>]((https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.0.3))
 
 ### Compatibility
 

@@ -48,20 +48,20 @@ theme:
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/weather-night
+        icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: red
       accent: red
       toggle:
-        icon: material/weather-sunny
+        icon: material/weather-night
         name: Switch to light mode
 
 extra:
   social:
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/zachary-christensen28/
+      link: https://www.linkedin.com/in/zachthesplunker/
     - icon: fontawesome/brands/github
       link: https://github.com/ZachChristensen28
     - icon: fontawesome/brands/twitter
@@ -85,6 +85,7 @@ nav:
   - Reference:
       - All Configurations: reference/all-configurations.md
       - Asset Database mapping: reference/asset-mapping.md
+      - Example Output: reference/example.md
       - Field reference:
           - Category: reference/category.md
   - Troubleshooting:
