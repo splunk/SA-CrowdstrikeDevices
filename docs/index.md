@@ -25,7 +25,7 @@ __Example Output__
 
 This documentation assumes the following:
 
-1. You have a working Splunk Enterprise Security environment. __This add-on is not inteded to work without Splunk ES.__
+1. You have a working Splunk Enterprise Security environment. __This add-on is not intended to work without Splunk ES.__
 2. You already have Crowdstrike device data ingested using the [Crowdstrike Devices technical add-on](https://splunkbase.splunk.com/app/5570).
 3. Familiarity with setting up a new Asset source in Enterprise Security.
 
