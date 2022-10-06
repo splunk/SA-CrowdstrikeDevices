@@ -8,19 +8,30 @@ on:
       - "src/**"
 jobs:
   release:
-    name: Create Release
+    name: Draft Release
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Install dependencies
-        run: sudo apt-get install -y jq
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+      - name: Download packaging toolkit
+        run: wget https://download.splunk.com/misc/packaging-toolkit/splunk-packaging-toolkit-1.0.1.tar.gz
+      - name: Install packaging toolkit
+        run: pip install splunk-packaging-toolkit-1.0.1.tar.gz
+      - name: Package app
+        id: app
+        run: |
+          cd src
+          slim package -o ~/build/packages SA-CrowdstrikeDevices
+          echo "::set-output name=app::$(realpath ~/build/packages/*)"
       - name: Get version
         id: version
         run: echo "::set-output name=version::$(cat src/SA-CrowdstrikeDevices/app.manifest | jq -r .info.id.version)"
-      - name: Create release
+      - name: Generate release
         uses: softprops/action-gh-release@v1
         with:
           draft: true
           name: SA-CrowdstrikeDevices v${{ steps.version.outputs.version }}
           tag_name: v${{ steps.version.outputs.version }}
+          files: ${{ steps.app.outputs.app }}
