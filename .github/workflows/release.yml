@@ -8,11 +8,10 @@ on:
       - "src/**"
 jobs:
   release:
-    name: Draft Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.7
       - name: Download packaging toolkit
@@ -23,15 +22,22 @@ jobs:
         id: app
         run: |
           cd src
-          slim package -o ~/build/packages SA-CrowdstrikeDevices
-          echo "::set-output name=app::$(realpath ~/build/packages/*)"
-      - name: Get version
-        id: version
-        run: echo "::set-output name=version::$(cat src/SA-CrowdstrikeDevices/app.manifest | jq -r .info.id.version)"
-      - name: Generate release
+          slim package -o ~/build/packages $(ls)
+          echo "app=$(realpath ~/build/packages/*)" >> $GITHUB_OUTPUT
+          cd ~/build/packages
+          md5sum $(ls) > $(ls).md5
+          echo "md5=$(realpath ~/build/packages/*.md5)" >> $GITHUB_OUTPUT
+      - name: Get info
+        id: info
+        run: |
+          echo "version=$(cat src/*/app.manifest | jq -r .info.id.version)" >> $GITHUB_OUTPUT
+          echo "name=$(cat src/*/app.manifest | jq -r .info.id.name)" >> $GITHUB_OUTPUT
+      - name: Draft Release
         uses: softprops/action-gh-release@v1
         with:
           draft: true
-          name: SA-CrowdstrikeDevices v${{ steps.version.outputs.version }}
-          tag_name: v${{ steps.version.outputs.version }}
-          files: ${{ steps.app.outputs.app }}
+          name: ${{ steps.info.outputs.name }} v${{ steps.info.outputs.version }}
+          tag_name: v${{ steps.info.outputs.version }}
+          files: |
+            ${{ steps.app.outputs.app }}
+            ${{ steps.app.outputs.md5 }}
