@@ -16,7 +16,7 @@ sa_crowdstrike_index | Search macro | Settings > Advanced Search > Search Macros
 sa_crowdstrike_retention | Search macro | Settings> Advanced Search > Search Macros | macros.conf | The amount of time for the device not being updated before it is removed from the lookup. `default "-2d"`
 identity_manager://crowdstrike_devices | Asset lookup configuration | Enterprise Security > Configure > Data Enrichment > Asset and Identity Management > Asset Lookups | inputs.conf | Asset configuration lookup to load Crowdstrike devices into the asset database.
 
-> \*CLI locations are relative to `SA-SandflyDevices/default`. Any update to CLI configuration files should be done in the local directory.
+> \*CLI locations are relative to `../default`. Any update to CLI configuration files should be done in the local directory.
 
 !!! note ""
     **If you have the [Splunk App for Lookup File Editing](https://splunkbase.splunk.com/app/263), the KVStore collection `crowdstrike_devices_collection` is viewable within the Web interface.
