@@ -5,7 +5,7 @@
     "id": {
       "group": null,
       "name": "SA-CrowdstrikeDevices",
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "author": [
       {
@@ -27,14 +27,14 @@
     },
     "commonInformationModels": null,
     "license": {
-      "name": null,
+      "name": "MIT License",
       "text": null,
-      "uri": null
+      "uri": "https://opensource.org/licenses/MIT"
     },
     "privacyPolicy": {
-      "name": null,
+      "name": "Splunk Privacy Policy",
       "text": null,
-      "uri": null
+      "uri": "https://www.splunk.com/en_us/legal/privacy/privacy-policy.html"
     },
     "releaseNotes": {
       "name": "README",
@@ -48,7 +48,7 @@
     },
     "SplunkEnterpriseSecuritySuite": {
       "version": ">=6.0.0",
-      "optional": false
+      "optional": true
     }
   },
   "tasks": [
