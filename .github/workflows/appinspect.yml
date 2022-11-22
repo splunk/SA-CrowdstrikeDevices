@@ -11,8 +11,8 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.7
       - name: install dependencies
@@ -42,16 +42,15 @@ jobs:
       - name: Get report
         run: |
           validate.sh report
-          ls ~/build/reports
       - name: Collect report
         uses: actions/upload-artifact@v3
         with:
-          name: appinspect report
+          name: Appinspect-report
           path: ~/build/reports/
       - name: Collect app package
         uses: actions/upload-artifact@v3
         with:
-          name: App package
+          name: App-package
           path: ~/build/packages/
       - name: Check Appinspect for issues
         run: validate.sh get_errors
