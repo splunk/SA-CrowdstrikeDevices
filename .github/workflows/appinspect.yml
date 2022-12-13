@@ -1,4 +1,4 @@
-name: splunk-appinspect
+name: Splunk Appinspect
 on:
   pull_request:
     branches:
@@ -7,50 +7,10 @@ on:
     paths:
       - "src/**"
     types: [opened, ready_for_review]
+
 jobs:
-  validate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: 3.7
-      - name: install dependencies
-        run: sudo apt-get install -y jq curl wget
-      - name: Download packaging toolkit
-        run: wget https://download.splunk.com/misc/packaging-toolkit/splunk-packaging-toolkit-1.0.1.tar.gz
-      - name: Install packaging toolkit
-        run: pip install splunk-packaging-toolkit-1.0.1.tar.gz
-      - name: Package app
-        run: |
-          cd src
-          slim package -o ~/build/packages SA-CrowdstrikeDevices
-      - name: Download and run helper script
-        run: |
-          mkdir -p ~/.local/bin
-          cd ~/.local/bin
-          wget https://raw.githubusercontent.com/ZachChristensen28/splunk-app-dev/master/validate.sh && chmod +x validate.sh
-      - name: Validate credentials
-        run: |
-          API_USER='${{ secrets.API_USER }}' API_PASS='${{ secrets.API_PASS }}' validate.sh -v
-      - name: Submit App for vetting
-        run: |
-          cd ~/build/packages
-          validate.sh submit $(ls)
-      - name: Check Status
-        run: validate.sh status
-      - name: Get report
-        run: |
-          validate.sh report
-      - name: Collect report
-        uses: actions/upload-artifact@v3
-        with:
-          name: Appinspect-report
-          path: ~/build/reports/
-      - name: Collect app package
-        uses: actions/upload-artifact@v3
-        with:
-          name: App-package
-          path: ~/build/packages/
-      - name: Check Appinspect for issues
-        run: validate.sh get_errors
+  call-packaging-workflow:
+    uses: ZachChristensen28/splunk-github-wfa/.github/workflows/appinspect.yml@154fb6bd5201e90183c99b40661cb931d61781b4
+    secrets:
+      API_USER: ${{ secrets.API_USER }}
+      API_PASS: ${{ secrets.API_PASS }}

@@ -1,4 +1,5 @@
 ---
+ᴴₒᴴₒᴴₒ: true
 hide:
     - navigation
     - toc

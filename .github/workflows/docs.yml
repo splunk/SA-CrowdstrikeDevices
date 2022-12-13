@@ -7,16 +7,9 @@ on:
     paths:
       - "docs/**"
       - "mkdocs.yml"
+
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: 3.x
-      - name: Install Python dependencies
-        uses: py-actions/py-dependency-install@v3
-        with:
-          path: "docs/requirements.txt"
-      - run: mkdocs gh-deploy --force
+  call-docs-workflow:
+    uses: ZachChristensen28/splunk-github-wfa/.github/workflows/docs.yml@e96bdc58732819aa2a1f2a03cb8794c92cacd9f6
+    with:
+      config-path: docs/requirements.txt
