@@ -6,38 +6,7 @@ on:
       - main
     paths:
       - "src/**"
+
 jobs:
-  release:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: 3.7
-      - name: Download packaging toolkit
-        run: wget https://download.splunk.com/misc/packaging-toolkit/splunk-packaging-toolkit-1.0.1.tar.gz
-      - name: Install packaging toolkit
-        run: pip install splunk-packaging-toolkit-1.0.1.tar.gz
-      - name: Package app
-        id: app
-        run: |
-          cd src
-          slim package -o ~/build/packages $(ls)
-          echo "app=$(realpath ~/build/packages/*)" >> $GITHUB_OUTPUT
-          cd ~/build/packages
-          md5sum $(ls) > $(ls).md5
-          echo "md5=$(realpath ~/build/packages/*.md5)" >> $GITHUB_OUTPUT
-      - name: Get info
-        id: info
-        run: |
-          echo "version=$(cat src/*/app.manifest | jq -r .info.id.version)" >> $GITHUB_OUTPUT
-          echo "name=$(cat src/*/app.manifest | jq -r .info.id.name)" >> $GITHUB_OUTPUT
-      - name: Draft Release
-        uses: softprops/action-gh-release@v1
-        with:
-          draft: true
-          name: ${{ steps.info.outputs.name }} v${{ steps.info.outputs.version }}
-          tag_name: v${{ steps.info.outputs.version }}
-          files: |
-            ${{ steps.app.outputs.app }}
-            ${{ steps.app.outputs.md5 }}
+  call-packaging-workflow:
+    uses: ZachChristensen28/splunk-github-wfa/.github/workflows/package-app.yml@154fb6bd5201e90183c99b40661cb931d61781b4
