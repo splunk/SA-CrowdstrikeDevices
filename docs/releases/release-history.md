@@ -1,5 +1,22 @@
 # Release history
 
+## [v1.0.4 <small>November 22, 2022</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.0.4)
+
+### Compatibility
+
+Product | Version
+--------- | -------
+Splunk platform versions | 9.x, 8.x
+Splunk Enterprise Security version | [7.x, 6.x](https://splunkbase.splunk.com/app/263)
+Crowdstrike Device Add-on Version | [3.x](https://splunkbase.splunk.com/app/5570)
+
+### What's Changed
+
+- Added ES managed configuration
+- Fixed incorrect mac field (Thanks [@PaddlingCode](https://github.com/PaddlingCode)) - [#30](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/30)
+
+**Full Changelog**: [v1.0.3...v1.0.4](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/compare/v1.0.3...v1.0.4)
+
 ## [v1.0.3 <small>September 20, 2022</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.0.3)
 
 ### Compatibility

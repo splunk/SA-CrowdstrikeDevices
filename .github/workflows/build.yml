@@ -10,5 +10,5 @@ on:
       - "!app.conf"
 
 jobs:
-  call-packaging-workflow:
+  build-increase:
     uses: ZachChristensen28/splunk-github-wfa/.github/workflows/increment-build-number.yml@95c81c2bca6e0ad926e5c462ef003f6a6b30cbc0

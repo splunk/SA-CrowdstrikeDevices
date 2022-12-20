@@ -1,6 +1,6 @@
 # Release notes
 
-## [v1.0.4 <small>November 22, 2022</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.0.4)
+## [v1.0.5 <small>December 19, 2022</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.0.5)
 
 ### Compatibility
 
@@ -12,10 +12,9 @@ Crowdstrike Device Add-on Version | [3.x](https://splunkbase.splunk.com/app/5570
 
 ### What's Changed
 
-- Added ES managed configuration
-- Fixed incorrect mac field (Thanks [@PaddlingCode](https://github.com/PaddlingCode)) - [#30](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/30)
+- Added macro and retention definition to ES General Settings in [#35](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/commit/8a1f138b2a244e6b6bbc7cd07d6a4db7a2f67ab5)
 
-**Full Changelog**: [v1.0.3...v1.0.4](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/compare/v1.0.3...v1.0.4)
+**Full Changelog**: [v1.0.4...v1.0.5](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/compare/v1.0.4...v1.0.5)
 
 ## Known issues
 
