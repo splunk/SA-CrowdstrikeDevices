@@ -1,7 +1,9 @@
 site_name: SA-CrowdstrikeDevices
-edit_uri: ""
+edit_uri: edit/main/docs/
 repo_url: https://github.com/ZachChristensen28/SA-CrowdstrikeDevices
 repo_name: ZachChristensen28/SA-CrowdstrikeDevices
+site_description: >-
+  Welcome to the Home of the SA-CrowdstrikeDevices Add-on for Splunk Enterprise Security documentation. The SA-CrowdstrikeDevices add-on allows Splunk Enterprise Security admins to use Crowdstrike device data with the Asset Database.
 
 plugins:
   - git-revision-date-localized:
@@ -10,8 +12,6 @@ plugins:
   - search
   - minify:
       minify_html: true
-      minify_js: true
-      minify_css: true
 
 markdown_extensions:
   - toc:
@@ -27,6 +27,23 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
+  - def_list
+  - footnotes
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 theme:
   name: material
@@ -46,6 +63,12 @@ theme:
     # - toc.integrate
     - navigation.tracking
     - content.code.annotate
+    - content.code.copy
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -70,6 +93,8 @@ extra:
       link: https://github.com/ZachChristensen28
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ZachTheSplunker
+
+copyright: Copyright &copy; 2023 ZachTheSplunker
 
 nav:
   - Home: index.md
