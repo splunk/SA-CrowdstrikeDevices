@@ -5,8 +5,8 @@ hide:
 ---
 # Home
 
-![Image title](./assets/sa-crowdstrike-logo.svg#only-light)
-![Image title](./assets/sa-crowdstrike-logo-dark.svg#only-dark)
+![Image title](./assets/sa-crowdstrike-logo.svg#only-light){ class="ignore-image" }
+![Image title](./assets/sa-crowdstrike-logo-dark.svg#only-dark){ class="ignore-image" }
 
 The SA-CrowdstrikeDevices add-on allows Splunk Enterprise Security admins to use Crowdstrike device data with the Asset Database.
 
@@ -33,7 +33,7 @@ This documentation assumes the following:
 
 Info | Description
 ------|----------
-SA-CrowdstrikeDevices | 1.0.5 - [Splunkbase](https://splunkbase.splunk.com/app/6573) \| [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.0.5)
+SA-CrowdstrikeDevices | 1.1.0 - [Splunkbase](https://splunkbase.splunk.com/app/6573) \| [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.1.0)
 Splunk Enterprise Security Version <small>(Required)</small> | [7.x \| 6.x](https://splunkbase.splunk.com/app/263)
 Crowdstrike Devices Add-on <small>(Required)</small> | [3.x](https://splunkbase.splunk.com/app/5570)
 Add-on has a web UI | No, this add-on does not contain views.

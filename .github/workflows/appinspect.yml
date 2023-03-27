@@ -10,7 +10,7 @@ on:
 
 jobs:
   call-packaging-workflow:
-    uses: ZachChristensen28/splunk-github-wfa/.github/workflows/appinspect.yml@154fb6bd5201e90183c99b40661cb931d61781b4
+    uses: ZachChristensen28/splunk-github-wfa/.github/workflows/appinspect.yml@7ecada57ac2b19c674658e3dac9751f5b23dec13
     secrets:
       API_USER: ${{ secrets.API_USER }}
       API_PASS: ${{ secrets.API_PASS }}
