@@ -12,9 +12,9 @@ Crowdstrike Device Add-on Version | [3.x](https://splunkbase.splunk.com/app/5570
 
 ### What's Changed
 
-- New format for `category` field:
+- New format for the `category` field:
     - The `cs_` prefix has been removed from many fields.
-    - Spaces has been added for easier readability.
+    - Spaces have been added for easier readability.
 
 === "New"
 
