@@ -18,8 +18,8 @@ Default priority field definition
 
 ```python
 priority=case(
-    match(category, "domain_controller"), "critical",
-    match(category, "server|ubuntu|rhel|linux"), "high",
+    match(category, "(?i)domain_controller"), "critical",
+    match(category, "(?i)server|ubuntu|rhel|linux"), "high",
     true(), "medium"
     )
 ```
