@@ -1,6 +1,6 @@
 # Release notes
 
-## [v1.1.0 <small>March 26, 2023</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.1.0)
+## [v1.1.1 <small>April 19, 2023</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.1.1)
 
 ### Compatibility
 
@@ -12,6 +12,7 @@ Crowdstrike Device Add-on Version | [3.x](https://splunkbase.splunk.com/app/5570
 
 ### What's Changed
 
+- Hotfix for priority field failing default regex match - [#58](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/58){ target=blank }
 - New format for the `category` field:
     - The `cs_` prefix has been removed from many fields.
     - Spaces have been added for easier readability.
@@ -69,7 +70,7 @@ Crowdstrike Device Add-on Version | [3.x](https://splunkbase.splunk.com/app/5570
     splunk_last_updated:03/27/23 02:14:24 UTC
     ```
 
-**Full Changelog**: [v1.0.5...v1.1.0](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/compare/v1.0.5...v1.1.0)
+**Full Changelog**: [v1.0.5...v1.1.1](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/compare/v1.0.5...v1.1.1)
 
 ## Known issues
 
