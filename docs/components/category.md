@@ -1,4 +1,4 @@
-# Category
+# Category Field
 
 ## Default category field mapping
 

@@ -1,7 +1,3 @@
----
-hide:
-    - toc
----
 # All Configurations
 
 Below is a table that list all configuration for this add-on.
@@ -18,5 +14,6 @@ identity_manager://crowdstrike_devices | Asset lookup configuration | Enterprise
 
 > \*CLI locations are relative to `../default`. Any update to CLI configuration files should be done in the local directory.
 
-!!! note ""
-    **If you have the [Splunk App for Lookup File Editing](https://splunkbase.splunk.com/app/263), the KVStore collection `crowdstrike_devices_collection` is viewable within the Web interface.
+!!!info
+**If you have the [Splunk App for Lookup File Editing<small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/263){ target="blank" }, the KVStore collection `crowdstrike_devices_collection` is viewable within the Web interface.
+!!!

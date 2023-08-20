@@ -1,8 +1,0 @@
-
-version: 2
-updates:
-  - package-ecosystem: "pip" 
-    directory: "/docs"
-    schedule:
-      interval: "weekly"
-    target-branch: "development"

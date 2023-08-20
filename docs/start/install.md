@@ -1,5 +1,5 @@
 ---
-order: -1
+order: -2
 label: Where to Install
 icon: package
 ---
@@ -7,7 +7,7 @@ icon: package
 # Where to Install
 
 !!!danger Important
-This supporting add-on must be installed alongside Splunk Enterprise Security. Ensure the [prequisites](/prerequisites.md) have been completed before proceeding.
+This supporting add-on must be installed alongside Splunk Enterprise Security. Ensure the [prequisites](/start/prerequisites.md) have been completed before proceeding.
 !!!
 
 For detailed information on where to install Splunk Apps/add-ons, including best practices, can be found at [Splunk Docs: About Installing Splunk add-ons<small>:icon-link-external:</small>](https://docs.splunk.com/Documentation/AddOns/released/Overview/Wheretoinstall){ target="blank" }

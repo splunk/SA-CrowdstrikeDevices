@@ -1,5 +1,5 @@
 ---
-order: -3
+order: -4
 icon: workflow
 label: Force build
 ---
@@ -9,7 +9,7 @@ label: Force build
 !!!info Optional
 !!!
 
-The initial build of the Crowdstrike assets will not occur until the first scheduled runtime (see [Update default saved search schedule](#update-default-saved-search-schedule)). To force the initial build perform the following:
+The initial build of the Crowdstrike assets will not occur until the first scheduled runtime (see [Update default saved search schedule](build.md)). To force the initial build perform the following:
 
 1. Navigate to Settings > Searches, reports, and alerts.
 2. Set the "App" dropdown to `SA-CrowdstrikeDevices`.

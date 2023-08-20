@@ -2,8 +2,9 @@
 
 The saved search `Crowdstrike Devices Lookup - Cleanup` runs every hour 29 minutes after the hour to remove old/stale device data from the kvstore. By default, it will remove any device that has not reported in longer than 2 days.
 
-???+ note
-    Even though a device may be removed, it will be re-added by the saved search `Crowdstrike Devices Lookup - Gen` if it begins to send data again.
+!!!info Note
+Even though a device may be removed, it will be re-added by the saved search `Crowdstrike Devices Lookup - Gen` if it begins to send data again.
+!!!
 
 ## Update Search Macro
 
@@ -13,14 +14,12 @@ To change the retention period from the default 2 days, there is a search macro 
 1. Set the "App" to `SA-CrowdstrikeDeviecs`.
 1. Set the "Owner" to `Any`.
 1. Click on `sa_crowdstrike_retention` to modify the definition.
-1. Set the definition to a valid [time modifier](https://docs.splunk.com/Documentation/Splunk/9.0.1/SearchReference/SearchTimeModifiers#How_to_specify_relative_time_modifiers).
+1. Set the definition to a valid [time modifier<small>:icon-link-external:</small>](https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/SearchTimeModifiers#How_to_specify_relative_time_modifiers){ target="blank" }.
 
-???+ important
-    __Make sure to keep the quotes around the definition.__
-
-    i.e.
-
-    "-7d@d"
+!!!success Note
+__Make sure to keep the quotes around the definition.__
+i.e. -7d\@d
+!!!
 
 ## Update Search Schedule
 

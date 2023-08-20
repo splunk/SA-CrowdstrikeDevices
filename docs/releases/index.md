@@ -1,81 +1,93 @@
-# Release notes
+---
+order: -100
+icon: project-roadmap
+label: Releases
+---
 
-## [v1.1.1 <small>April 19, 2023</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.1.1)
+# Release Notes
 
-### Compatibility
+Latest release can be found on [Splunkbase<small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6573){ target="blank" } or [GitHub<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.1.1){ target="blank" }.
 
-Product | Version
---------- | -------
-Splunk platform versions | 9.x, 8.x
-Splunk Enterprise Security version | [7.x, 6.x](https://splunkbase.splunk.com/app/263)
-Crowdstrike Device Add-on Version | [3.x](https://splunkbase.splunk.com/app/5570)
+## v1.1.1 [!badge text="LATEST" variant="info"]
 
-### What's Changed
+Released: [April 19, 2023<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.1.1){ target="blank" }
 
-- Hotfix for priority field failing default regex match - [#58](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/58){ target=blank }
-- New format for the `category` field:
++++ New :icon-shield-check:
+- [x] New format for the `category` field, see [Category](/components/category.md).
     - The `cs_` prefix has been removed from many fields.
     - Spaces have been added for easier readability.
++++ Fixed :icon-bug:
+- [x] Hotfix for priority field failing default regex match - [#58<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/58){ target=blank }
++++
 
-=== "New"
+**Full Changelog**: [v1.0.5...v1.1.1<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/compare/v1.0.5...v1.1.1){ target="blank" }
 
-    ``` yaml
-    bios: Dell Inc
-    bios_version: 1.6.5
-    cs_agent_version: 6.44.15806.0
-    cs_dv_control_applied: true
-    cs_dv_firewall_applied: true
-    cs_dv_globalconfig_applied: true
-    cs_dv_sensorupdate_applied: true
-    cs_first_seen: 10/15/20 00:31:59 UTC
-    cs_last_seen: 09/14/22 15:06:50 UTC
-    cs_uninstallprotection: ENABLED
-    dvc_manufacturer: Dell Inc
-    dvc_name: OptiPlex 5050
-    dvc_status: normal
-    dvc_type: Workstation
-    external_ip: 165.225.10.253
-    gen: sa-crowdstrike
-    os_major_version: 10
-    os_name: Windows 10
-    os_platform: Windows
-    os_version: 10.0.19044.1889
-    provision_status: Provisioned
-    reduced_functionality_mode: no
-    splunk_last_updated: 03/27/23 02:09:24 UTC
-    ```
+---
+ 
+## v1.0.5
 
-=== "Old"
+Released: [December 19, 2022<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.0.5){ target="blank" }
 
-    ``` yaml
-    cs_agent_version:6.44.15806.0
-    cs_bios_mf:dell_inc
-    cs_bios_version:1.6.5
-    cs_dv_control_applied:true
-    cs_dv_firewall_applied:true
-    cs_dv_globalconfig_applied:true
-    cs_dv_sensorupdate_applied:true
-    cs_dv_status:normal
-    cs_dv_type:workstation
-    cs_external_ip:165.225.10.253
-    cs_os_major_version:10
-    cs_os_name:windows_10
-    cs_os_platform:windows
-    cs_sys_mf:dell_inc
-    cs_sys_name:optiplex_5050
-    cs_uninstallprotection:enabled
-    gen:sa_crowdstrike
-    cs_first_seen:10/15/20 00:31:59 UTC
-    cs_last_seen:09/14/22 15:06:50 UTC
-    splunk_last_updated:03/27/23 02:14:24 UTC
-    ```
++++ New :icon-shield-check:
+- [x] Added macro and retention definition to ES General Settings in [#35<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/commit/8a1f138b2a244e6b6bbc7cd07d6a4db7a2f67ab5){ target="blank" }
++++
 
-**Full Changelog**: [v1.0.5...v1.1.1](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/compare/v1.0.5...v1.1.1)
+**Full Changelog**: [v1.0.4...v1.0.5<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/compare/v1.0.4...v1.0.5){ target="blank" }
 
-## Known issues
+---
 
-Issue | Description | Solution | GitHub issue reference
------ | ----------- | -------- | ----------------------
-Lookup file error | You may see the error `status="Lookup file error, unknown path or update time" name=crowdstrike_devices` | This error exists since the KVstore is being used opposed to a csv file and does not interfere with the functionality of lookup creation. | Issue [#22](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/22)
+## v1.0.4
 
- Issues can be reported on the [SA-CrowdstrikeDevices's Github page](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues).
+Released: [November 22, 2022<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.0.4){ target="blank" }
+
++++ New :icon-shield-check:
+- [x] Added ES managed configuration
++++ Fixed :icon-bug:
+- [x] Fixed incorrect mac field (Thanks [@PaddlingCode<small>:icon-link-external:</small>](https://github.com/PaddlingCode){ target="blank" }) - [#30<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/30){ target="blank" }
++++
+
+**Full Changelog**: [v1.0.3...v1.0.4<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/compare/v1.0.3...v1.0.4){ target="blank" }
+
+---
+
+## v1.0.3 
+
+Released: [September 20, 2022<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases/tag/v1.0.3){ target="blank" }
+
++++ New :icon-shield-check:
+- [x] added cleanup search to remove old/stale devices ([#18<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/18){ target="blank" }).
+- [x] added search macro for device retention period ([#18<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/18){ target="blank" }).
++++ Improved :icon-thumbsup:
+- [x] updated collection to include last seen field ([#18<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/18){ target="blank" }).
+- [x] updated lookup generating search to include last time seen ([#18<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/18){ target="blank" }).
++++
+
+---
+
+## v1.0.2
+
+Released: September 8,2022
+
++++ New :icon-shield-check:
+- [x] added `first_seen`, `last_seen`, and `last_updated` to category field ([#8<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/8){ target="blank" }).
+- added `site_name` to existing `bunit` field ([#13<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/13){ target="blank" }).
++++ Improved :icon-thumbsup:
+- [x] Changed app logo background to transparent.
+- [x] Updated saved search to preserve hosts with multiple IP/MAC addresses ([#11<small>:icon-link-external:</small>](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues/11){ target="blank" }).
++++
+
+---
+
+## v1.0.1
+
+Released: August 25, 2022
+
+- [x] Hotfix for missing `_key` field in saved search.
+
+---
+
+## v1.0.0 
+
+Released: August 25, 2022
+
+- [x] Initial Release

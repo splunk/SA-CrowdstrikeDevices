@@ -2,8 +2,13 @@
 
  It is possible that some of your devices share a common key field (`dns`, `ip`, `mac`, `nt_host`) that is causing an erroneous merge of your assets. There are a few ways to overcome this:
 
-- [Disable Asset merging](#disable-asset-merging)
-- [Update Asset key fields](#update-asset-key-fields)
+- [Asset Merge](#asset-merge)
+  - [Problem Scenario](#problem-scenario)
+    - [Default merge](#default-merge)
+    - [Expected behavior](#expected-behavior)
+  - [Solutions](#solutions)
+    - [Disable Asset Merging](#disable-asset-merging)
+    - [Update Asset Key Fields](#update-asset-key-fields)
 
 ## Problem Scenario
 
@@ -24,7 +29,7 @@ host1<br>host2<br>host1.local<br>10.0.34.9<br>77:61:f5:cb:33:a7<br>a5:e7:5c:39:7
 
 ### Expected behavior
 
-<small>_see next section to accomplish this expected behavior_<small>
+<small>_see next section to accomplish this expected behavior_</small>
 
 Asset | dns | ip | mac | nt_host
 ----- | --- | -- | --- | -------
@@ -37,28 +42,27 @@ host2<br>host2.local<br>10.0.34.9<br>a5:e7:5c:39:77:d1 | host2.local | 10.0.34.9
 
 If Crowdstrike is your **_only_** data source for assets, you can disable asset merge in the global settings.
 
-!!! warn "This is not recommended if you have more than one asset list configured (see next section)"
+!!!warning This is not recommended if you have more than one asset list configured (see next section)
+!!!
 
 1. In Enterprise Security navigate to Configure > Data Enrichment > Asset and Identity Management > Global Settings.
-1. Toggle off "Assets" under `Enable Merge for Assets or Identities`.
+2. Toggle off "Assets" under `Enable Merge for Assets or Identities`.
 
 Changes should reflect the next time the Asset database builds (usually 5-10 minutes).
 
-<small>\*_For more information, see [Splunk Docs](https://docs.splunk.com/Documentation/ES/latest/Admin/Merge){ target="blank" }._</small>
+<small>\*_For more information, see [Splunk Docs:icon-link-external:](https://docs.splunk.com/Documentation/ES/latest/Admin/Merge){ target="blank" }._</small>
 
 ### Update Asset Key Fields
 
 If you have more than one asset list configured you can look at disabling the common key field to prevent the default merging behavior.
 
-!!! tip "In most cases, the IP field will be field that needs to disabled as the key field."
+!!!success In most cases, the IP field will be field that needs to disabled as the key field.
+!!!
 
 1. (In Enterprise Security) Navigate to Configure > Data Enrichment > Asset and Identity Management.
 1. Select the "Asset Fields" Tab.
 1. Select the `ip` field (or the field you want to disable) and "uncheck" it from being a Key.
 
-<figure markdown>
-![Disable Asset Key](/assets/asset-key-field.png)
-<figcaption>Disable Asset Key by unchecking "Key"</figcaption>
-</figure>
+![Disable Asset Key by unchecking "Key"](/static/asset-key-field.png)
 
 Changes should reflect the next time the Asset database builds (usually 5-10 minutes).

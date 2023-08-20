@@ -14,6 +14,10 @@ links:
   link: https://splunkbase.splunk.com/app/6573
   target: blank
   icon: apps
+- text: GitHub
+  link: https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/releases
+  target: blank
+  icon: mark-github
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved.\nMade with :icon-heart-fill: by [ZachTheSplunker](https://www.linkedin.com/in/zachthesplunker/){ target=blank }"
   links: 
