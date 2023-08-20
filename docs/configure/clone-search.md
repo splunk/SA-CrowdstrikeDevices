@@ -1,3 +1,7 @@
+---
+order: -100
+---
+
 # Clone default saved search
 
 In order to preserve the default behavior and to compare changes to new releases, it is recommended to clone the default search `Crowdstrike Devices Lookup - Gen` before making any changes.

@@ -1,4 +1,4 @@
-[![SA-CrowdstrikeDevices](./docs/assets/sa-crowdstrike-logo-dark.svg)](https://splunk-sa-crowdstrike.ztsplunker.com)
+[![SA-CrowdstrikeDevices](./docs/static/sa-crowdstrike-hero.webp)](https://splunk-sa-crowdstrike.ztsplunker.com)
 
 ![GitHub](https://img.shields.io/github/license/zachchristensen28/SA-CrowdstrikeDevices)
 [![Docs](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/docs.yml/badge.svg)](https://splunk-sa-crowdstrike.ztsplunker.com/)
