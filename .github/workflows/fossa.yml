@@ -1,0 +1,24 @@
+name: fossa
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+      - master
+    paths:
+      - "src/**"
+    types: [opened, ready_for_review]
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  fossa-scan:
+    name: Fossa Scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: fossas/fossa-action@main
+        with:
+          api-key: ${{secrets.FOSSAAPIKEY}}

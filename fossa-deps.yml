@@ -1,0 +1,3 @@
+referenced-dependencies:
+  - type: npm
+    name: retypeapp
