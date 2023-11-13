@@ -1,6 +1,6 @@
 [![SA-CrowdstrikeDevices](./docs/static/sa-crowdstrike-hero.webp)](https://splunk-sa-crowdstrike.ztsplunker.com)
 
-![GitHub](https://img.shields.io/github/license/zachchristensen28/SA-CrowdstrikeDevices)
+[![License](https://img.shields.io/badge/License-Splunk%20General%20Terms-ce0070)](https://www.splunk.com/en_us/legal/splunk-general-terms.html)
 [![Docs](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/docs.yml/badge.svg)](https://splunk-sa-crowdstrike.ztsplunker.com/)
 ![Appinspect](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/appinspect.yml/badge.svg)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ZachChristensen28/SA-CrowdstrikeDevices)
