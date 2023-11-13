@@ -8,6 +8,7 @@
 [![Splunk ES Compatibility](https://img.shields.io/badge/Splunk%20ES%20Compatibility-7.x%20|%206.x-success)](https://splunkbase.splunk.com/app/263)
 [![Crowdstrike Add-on Compatibility](https://img.shields.io/badge/Crowdstrike%20Addon%20Compatibility-3.x-success)](https://splunkbase.splunk.com/app/5570)
 ![Splunk Cloud Compatibility](https://img.shields.io/badge/Splunk%20Cloud%20Ready-Victoria%20|%20Classic-informational?logo=splunk)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FZachChristensen28%2FSA-CrowdstrikeDevices.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FZachChristensen28%2FSA-CrowdstrikeDevices?ref=badge_small)
 
 This supporting add-on comes with prebuilt content for CrowdStrike device data to be easily used with Splunk Enterprise Security's asset database.
 
