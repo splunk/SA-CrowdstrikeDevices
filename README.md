@@ -1,4 +1,5 @@
 [![SA-CrowdstrikeDevices](./docs/static/sa-crowdstrike-hero.webp)](https://splunk-sa-crowdstrike.ztsplunker.com)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FZachChristensen28%2FSA-CrowdstrikeDevices.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FZachChristensen28%2FSA-CrowdstrikeDevices?ref=badge_shield)
 
 ![GitHub](https://img.shields.io/github/license/zachchristensen28/SA-CrowdstrikeDevices)
 [![Docs](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/docs.yml/badge.svg)](https://splunk-sa-crowdstrike.ztsplunker.com/)
@@ -35,3 +36,7 @@ Add-on has a web UI | No, this add-on does not contain views.
 ## Issues or Feature Requests
 
 Please open an issue or feature request on [Github](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FZachChristensen28%2FSA-CrowdstrikeDevices.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FZachChristensen28%2FSA-CrowdstrikeDevices?ref=badge_large)
