@@ -27,9 +27,9 @@
     },
     "commonInformationModels": null,
     "license": {
-      "name": "MIT License",
+      "name": "SPLUNK GENERAL TERMS",
       "text": null,
-      "uri": "https://opensource.org/licenses/MIT"
+      "uri": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
     },
     "privacyPolicy": {
       "name": "Splunk Privacy Policy",
