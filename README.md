@@ -12,6 +12,14 @@
 
 This supporting add-on comes with prebuilt content for CrowdStrike device data to be easily used with Splunk Enterprise Security's asset database.
 
+# ⚠️ NOTICE ⚠️
+
+**This add-on is currently hidden on Splunkbase. This is temporary and will be resolved soon.**
+
+This app package can be downloaded from the "Releases" page on GitHub.
+
+---
+
 ```markdown
 ** This supporting add-on is only intended to work with Splunk Enterprise Security deployments **
 ```
