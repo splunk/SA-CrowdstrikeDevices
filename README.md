@@ -1,9 +1,9 @@
-[![SA-CrowdstrikeDevices](./docs/static/sa-crowdstrike-hero.webp)](https://splunk-sa-crowdstrike.ztsplunker.com)
+[![SA-CrowdstrikeDevices](./docs/static/sa-crowdstrike-hero.webp)](https://splunk.github.io/SA-CrowdstrikeDevices/)
 
 [![License](https://img.shields.io/badge/License-Splunk%20General%20Terms-ce0070)](https://www.splunk.com/en_us/legal/splunk-general-terms.html)
-[![Docs](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/docs.yml/badge.svg)](https://splunk-sa-crowdstrike.ztsplunker.com/)
-![Appinspect](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/actions/workflows/appinspect.yml/badge.svg)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ZachChristensen28/SA-CrowdstrikeDevices)
+[![Docs](https://github.com/splunk/SA-CrowdstrikeDevices/actions/workflows/docs.yml/badge.svg)](splunk.github.io/SA-CrowdstrikeDevices/)
+![Appinspect](https://github.com/splunk/SA-CrowdstrikeDevices/actions/workflows/appinspect.yml/badge.svg)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/splunk/SA-CrowdstrikeDevices)
 [![Splunkbase App](https://img.shields.io/badge/Splunkbase-SA--CrowdstrikeDevices-blue)](https://splunkbase.splunk.com/app/6573)
 [![Splunk ES Compatibility](https://img.shields.io/badge/Splunk%20ES%20Compatibility-7.x%20|%206.x-success)](https://splunkbase.splunk.com/app/263)
 [![Crowdstrike Add-on Compatibility](https://img.shields.io/badge/Crowdstrike%20Addon%20Compatibility-3.x-success)](https://splunkbase.splunk.com/app/5570)
@@ -12,21 +12,13 @@
 
 This supporting add-on comes with prebuilt content for CrowdStrike device data to be easily used with Splunk Enterprise Security's asset database.
 
-# ⚠️ NOTICE ⚠️
-
-**This add-on is currently hidden on Splunkbase. This is temporary and will be resolved soon.**
-
-This app package can be downloaded from the "Releases" page on GitHub.
-
----
-
 ```markdown
 ** This supporting add-on is only intended to work with Splunk Enterprise Security deployments **
 ```
 
 ## Documentation
 
-Full documentation can be found at [https://splunk-sa-crowdstrike.ztsplunker.com](https://splunk-sa-crowdstrike.ztsplunker.com).
+Full documentation can be found at [https://splunk.github.io/SA-CrowdstrikeDevices/](https://splunk.github.io/SA-CrowdstrikeDevices/).
 
 ## Disclaimer
 
@@ -36,11 +28,11 @@ Full documentation can be found at [https://splunk-sa-crowdstrike.ztsplunker.com
 
 Info | Description
 ------|----------
-SA-CrowdstrikeDevices | 1.1.1 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) \| [GitHub](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices)
+SA-CrowdstrikeDevices | 1.1.1 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) 
 Splunk Enterprise Security Version (Required) | [7.x \| 6.x](https://splunkbase.splunk.com/app/263)
 Crowdstrike Devices Add-on (Required) | [3.x](https://splunkbase.splunk.com/app/5570)
 Add-on has a web UI | No, this add-on does not contain views.
 
 ## Issues or Feature Requests
 
-Please open an issue or feature request on [Github](https://github.com/ZachChristensen28/SA-CrowdstrikeDevices/issues).
+Please open an issue or feature request on [Github](https://github.com/splunk/SA-CrowdstrikeDevices/issues).
