@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://splunk-sa-crowdstrike.ztsplunker.com/sitemap.xml.gz
+Sitemap: https://splunk.github.io/SA-CrowdstrikeDevices/sitemap.xml.gz
