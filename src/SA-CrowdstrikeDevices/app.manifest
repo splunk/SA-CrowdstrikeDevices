@@ -38,7 +38,7 @@
     },
     "releaseNotes": {
       "name": "README",
-      "uri": "https://splunk-sa-crowdstrike.ztsplunker.com/reference/releases/"
+      "uri": "https://splunk.github.io/SA-CrowdstrikeDevices/reference/releases/"
     }
   },
   "dependencies": {
