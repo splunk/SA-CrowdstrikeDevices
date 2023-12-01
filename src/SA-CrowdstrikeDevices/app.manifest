@@ -15,7 +15,7 @@
       }
     ],
     "releaseDate": null,
-    "description": "The SA-CrowdstrikeDevices add-on allows Splunk Enterprise Security admins to use Crowdstrike device data with the Asset Database.",
+    "description": "The SA-CrowdstrikeDevices add-on allows Splunk Enterprise Security admins to use CrowdStrike device data with the Asset Database.",
     "classification": {
       "intendedAudience": "Security",
       "categories": [

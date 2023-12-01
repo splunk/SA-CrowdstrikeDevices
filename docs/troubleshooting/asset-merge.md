@@ -40,7 +40,7 @@ host2<br>host2.local<br>10.0.34.9<br>a5:e7:5c:39:77:d1 | host2.local | 10.0.34.9
 
 ### Disable Asset Merging
 
-If Crowdstrike is your **_only_** data source for assets, you can disable asset merge in the global settings.
+If CrowdStrike is your **_only_** data source for assets, you can disable asset merge in the global settings.
 
 !!!warning This is not recommended if you have more than one asset list configured (see next section)
 !!!

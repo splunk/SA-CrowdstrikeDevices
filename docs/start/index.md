@@ -17,5 +17,5 @@ expanded: true
 1. [Where to Install](install.md)
 2. [Update default index](macro.md)
 3. [Force Build](build.md) <small>(optional)</small>
-4. [Enable Asset Correlation in ES](sources.md)
+4. [Enable Asset Correlation in Splunk Enterprise Security](sources.md)
 5. [Update default schedule](scheduled-search.md) <small>(optional)</small>

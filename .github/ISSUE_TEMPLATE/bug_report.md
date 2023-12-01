@@ -27,7 +27,7 @@ If applicable, add screenshots to help explain your problem.
  - Splunk ES Version: [e.g. 7.0]
  - Splunk Version: [e.g. 9.0]
  - SA-CrowdstrikeDevices Version: [e.g. 1.0.1]
- - [Crowdstrike Devices add-on (TA)](https://splunkbase.splunk.com/app/5570/) Version: [e.g. 3.1]
+ - [CrowdStrike Devices add-on (TA)](https://splunkbase.splunk.com/app/5570/) Version: [e.g. 3.1]
 
 **Additional context**
 Add any other context about the problem here.

@@ -6,7 +6,7 @@ label: Releases
 
 # Release Notes
 
-Latest release can be found on [Splunkbase<small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6573){ target="blank" }.
+Latest release can be found on [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6573){ target="blank" }.
 
 ## v1.1.1 [!badge text="LATEST" variant="info"]
 
@@ -27,7 +27,7 @@ Released: April 19, 2023
 Released: December 19, 2022
 
 +++ New :icon-shield-check:
-- [x] Added macro and retention definition to ES General Settings
+- [x] Added macro and retention definition to the General Settings in Splunk Enterprise Security
 +++
 
 ---
@@ -37,9 +37,9 @@ Released: December 19, 2022
 Released: November 22, 2022
 
 +++ New :icon-shield-check:
-- [x] Added ES managed configuration
+- [x] Added managed configuration to Splunk Enterprise Security
 +++ Fixed :icon-bug:
-- [x] Fixed incorrect mac field (Thanks [@PaddlingCode<small>:icon-link-external:</small>](https://github.com/PaddlingCode){ target="blank" })
+- [x] Fixed incorrect mac field (Thanks [@PaddlingCode <small>:icon-link-external:</small>](https://github.com/PaddlingCode){ target="blank" })
 +++
 
 ---

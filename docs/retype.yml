@@ -4,7 +4,6 @@ url: splunk.github.io/SA-CrowdstrikeDevices/
 branding:
   title: SA-CrowdstrikeDevices
   label: v1.1.1
-  logo: static/sa-crowdstrike-logo-small.svg
   colors:
     label:
       text: "#fff"
@@ -14,11 +13,5 @@ links:
   link: https://splunkbase.splunk.com/app/6573
   target: blank
   icon: apps
-footer:
-  copyright: "&copy; Copyright {{ year }}. All rights reserved.\nMade with :icon-heart-fill: by [ZachTheSplunker](https://www.linkedin.com/in/zachthesplunker/){ target=blank }"
-  links: 
-    - text: Connect with ZachTheSplunker on LinkedIn
-      link: https://www.linkedin.com/in/zachthesplunker/
-      target: blank
 markdown:
   lineBreaks: hard

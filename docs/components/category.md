@@ -2,7 +2,7 @@
 
 ## Default category field mapping
 
-Mapped Field | Crowdstrike Event Field | Example value
+Mapped Field | CrowdStrike Event Field | Example value
 ------------ | ----------------------- | -------------
 bios | `falcon_device.bios_manufacturer` | Dell Inc
 bios_version | `falcon_device.bios_version` | 1.6.5

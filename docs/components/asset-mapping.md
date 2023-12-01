@@ -2,9 +2,9 @@
 
 The following table describes how this add-on maps to the Asset Database.
 
-> reference [Format an asset or identity in Splunk ES<small>:icon-link-external:</small>](https://docs.splunk.com/Documentation/ES/latest/Admin/Formatassetoridentitylist#Asset_lookup_header){ target="blank" }
+> reference [Format an asset or identity in Splunk Enterprise Security <small>:icon-link-external:</small>](https://docs.splunk.com/Documentation/ES/latest/Admin/Formatassetoridentitylist#Asset_lookup_header){ target="blank" }
 
-ES Asset lookup field | [Crowdstrike Device TA Fields<small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/5570){ target="blank" } | Example value | Multi-value allowed
+Asset lookup field | [CrowdStrike Device TA Fields <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/5570){ target="blank" } | Example value | Multi-value allowed
 --- | --- | --- | ---
 ip | `falcon_device.local_ip` | 10.15.23.8 | true
 mac | `mac` | 61:se:e3:1s:7r:38 | true

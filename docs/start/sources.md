@@ -5,9 +5,9 @@ icon: play
 
 # Enable asset correlation
 
-Confirm asset correlation has been setup in Enterprise Security.
+Confirm asset correlation has been setup in Splunk Enterprise Security.
 
-1. Navigate to Enterprise Security > Configure > Data Enrichment > Asset and Identity Management.
+1. Navigate to Splunk Enterprise Security > Configure > Data Enrichment > Asset and Identity Management.
 1. Switch to the "Correlation Setup" tab.
 1. Either enable for all sourcetypes <small>(Recommended)</small> or selectively by sourcetype.
     - If you choose to enable select sourcetypes, ensure the `stash` sourcetype is also selected so Notable events will be enriched with asset information.
@@ -20,4 +20,4 @@ Confirm asset correlation has been setup in Enterprise Security.
 !!! info Optional
 !!!
 
-It may be possible that you have existing Asset Lookups defined. If Crowdstrike is widely deployed in your environment the existing lookups may no longer be needed.
+It may be possible that you have existing Asset Lookups defined. If CrowdStrike is widely deployed in your environment the existing lookups may no longer be needed.
