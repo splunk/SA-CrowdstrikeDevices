@@ -28,18 +28,18 @@ jobs:
         with:
           username: ${{ secrets.API_USER }}
           password: ${{ secrets.API_PASS }}
-          app_path: /home/runner/build/package/
+          app_path: build/package/
           included_tags: "cloud,self-service,future"
       - name: Collect report
         if: always()
         uses: actions/upload-artifact@v3
         with:
           name: Appinspect-report
-          path: ~/reports/
+          path: AppInspect_response.html
       - name: Collect app package
         if: always()
         uses: actions/upload-artifact@v3
         with:
           name: App-package
-          path: ~/build/packages/
+          path: ~/build/package/
           
