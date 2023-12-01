@@ -28,7 +28,7 @@ jobs:
         with:
           username: ${{ secrets.API_USER }}
           password: ${{ secrets.API_PASS }}
-          app_path: build/package/
+          app_path: build/package
           included_tags: "cloud,self-service,future"
       - name: Collect report
         if: always()
