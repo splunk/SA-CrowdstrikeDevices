@@ -22,8 +22,7 @@ jobs:
       - name: Package app
         id: app
         run: |
-          cd SA-CrowdstrikeDevices
-          slim package -o ~/build/packages $(ls)
+          slim package -o ~/build/packages SA-CrowdstrikeDevices
           echo "app=$(realpath ~/build/packages/*)" >> $GITHUB_OUTPUT
           cd ~/build/packages
           md5sum $(ls) > $(ls).md5
