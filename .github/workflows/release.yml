@@ -22,7 +22,7 @@ jobs:
       - name: Package app
         id: app
         run: |
-          cd src
+          cd SA-CrowdstrikeDevices
           slim package -o ~/build/packages $(ls)
           echo "app=$(realpath ~/build/packages/*)" >> $GITHUB_OUTPUT
           cd ~/build/packages
@@ -31,8 +31,8 @@ jobs:
       - name: Get info
         id: info
         run: |
-          echo "version=$(cat src/*/app.manifest | jq -r .info.id.version)" >> $GITHUB_OUTPUT
-          echo "name=$(cat src/*/app.manifest | jq -r .info.id.name)" >> $GITHUB_OUTPUT
+          echo "version=$(cat SA-CrowdstrikeDevices/app.manifest | jq -r .info.id.version)" >> $GITHUB_OUTPUT
+          echo "name=$(cat SA-CrowdstrikeDevices/app.manifest | jq -r .info.id.name)" >> $GITHUB_OUTPUT
       - name: Draft Release
         uses: softprops/action-gh-release@v1
         with:
