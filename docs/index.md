@@ -27,7 +27,7 @@ This documentation assumes the following:
 
 Info | Description
 ------|----------
-SA-CrowdstrikeDevices | 1.1.1 - [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6573){ target="blank" } 
+SA-CrowdstrikeDevices | 1.1.2 - [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6573){ target="blank" } 
 Splunk Enterprise Security Version <small>(Required)</small> | [7.x \| 6.x <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/263){ target="blank" }
 CrowdStrike Devices Add-on <small>(Required)</small> | [3.x <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/5570){ target="blank" }
 Add-on has a web UI | No, this add-on does not contain views.

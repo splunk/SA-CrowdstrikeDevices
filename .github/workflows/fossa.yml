@@ -6,15 +6,11 @@ on:
       - main
       - master
     paths:
-      - "src/**"
+      - "SA-CrowdstrikeDevices/**"
     types: [opened, ready_for_review]
 
 jobs:
   fossa-scan:
     name: Fossa Scan
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: fossas/fossa-action@main
-        with:
-          api-key: ${{secrets.FOSSAAPIKEY}}
+    uses: splunk/oss-scanning/.github/workflows/oss-scan.yml@main
+    secrets: inherit

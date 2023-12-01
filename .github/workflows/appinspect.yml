@@ -5,12 +5,41 @@ on:
       - main
       - master
     paths:
-      - "src/**"
+      - "SA-CrowdstrikeDevices/**"
     types: [opened, ready_for_review]
 
 jobs:
-  call-packaging-workflow:
-    uses: ZachChristensen28/splunk-github-wfa/.github/workflows/appinspect.yml@7ecada57ac2b19c674658e3dac9751f5b23dec13
-    secrets:
-      API_USER: ${{ secrets.API_USER }}
-      API_PASS: ${{ secrets.API_PASS }}
+  appinspect-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.7
+      - name: Download packaging toolkit
+        run: wget https://download.splunk.com/misc/packaging-toolkit/splunk-packaging-toolkit-1.0.1.tar.gz
+      - name: Install packaging toolkit
+        run: pip install splunk-packaging-toolkit-1.0.1.tar.gz
+      - name: Package app
+        run: |
+          slim package -o build/package SA-CrowdstrikeDevices
+      - name: run Appinspect
+        uses: splunk/appinspect-api-action@v3
+        with:
+          username: ${{ secrets.API_USER }}
+          password: ${{ secrets.API_PASS }}
+          app_path: build/package
+          included_tags: "cloud,self-service,future"
+      - name: Collect report
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: Appinspect-report
+          path: AppInspect_response.html
+      - name: Collect app package
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: App-package
+          path: build/package/
+          

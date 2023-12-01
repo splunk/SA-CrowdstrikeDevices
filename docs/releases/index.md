@@ -8,7 +8,18 @@ label: Releases
 
 Latest release can be found on [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6573){ target="blank" }.
 
-## v1.1.1 [!badge text="LATEST" variant="info"]
+## v1.1.2 [!badge text="LATEST" variant="info"]
+
+Released: December 1, 2023
+
++++ New :icon-shield-check:
+- [x] SplunkWorks updates
+
+This release has no functional changes of the add-on.
+
+---
+
+## v1.1.1
 
 Released: April 19, 2023
 
