@@ -3,7 +3,7 @@ output: .retype
 url: splunk.github.io/SA-CrowdstrikeDevices/
 branding:
   title: SA-CrowdstrikeDevices
-  label: v1.1.1
+  label: v1.1.2
   colors:
     label:
       text: "#fff"

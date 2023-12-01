@@ -6,7 +6,7 @@ on:
       - main
       - master
     paths:
-      - "src/**"
+      - "SA-CrowdstrikeDevices/**"
     types: [opened, ready_for_review]
 
 jobs:
