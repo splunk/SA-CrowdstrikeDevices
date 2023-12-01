@@ -1,3 +1,7 @@
-referenced-dependencies:
-  - type: npm
-    name: retypeapp
+custom-dependencies:
+  - name: "Retype"
+    version: "3"
+    license: "Retype Software License Agreement"
+    metadata:
+      homepage: https://retype.com/license/
+      description: "Retype is an ultra-high-performance static website generator that builds a website based on simple Markdown text files."
