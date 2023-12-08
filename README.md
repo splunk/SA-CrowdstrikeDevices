@@ -23,7 +23,7 @@ Full documentation can be found at [https://splunk.github.io/SA-CrowdstrikeDevic
 
 ## Disclaimer
 
-> *This Splunk Supporting Add-on is __not__ affiliated with [__CrowdStrike, Inc.__](https://www.crowdstrike.com) and is not sponsored or sanctioned by the CrowdStrike team. As such, the included documentation does not contain information on how to get started with CrowdStrike. Rather, this documentation serves as a guide to use CrowdStrike device data with Splunk Enterprise Security. Please visit [https://www.crowdstrike.com](https://www.crowdstrike.com) for more information about CrowdStrike.*
+> *This Splunk Supporting Add-on is __not__ affiliated with [__CrowdStrike, Inc.__](https://www.crowdstrike.com) and is not sponsored or sanctioned by the CrowdStrike team. Please visit [https://www.crowdstrike.com](https://www.crowdstrike.com) for more information about CrowdStrike.*
 
 ## About
 
