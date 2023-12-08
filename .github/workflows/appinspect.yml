@@ -1,5 +1,6 @@
 name: Splunk Appinspect
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - main

@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/static/hero.webp">
+  <source media="(prefers-color-scheme: light)" srcset="docs/static/hero.webp">
+  <img alt="SA-CrowdstrikeDevices" src="docs/static/hero.webp">
+</picture>
+
 <div align="center">
     <h3>CrowdStrike Devices for Splunk Enterprise Security</h3>
     <p>This supporting add-on comes with prebuilt content for  CrowdStrike device data to be easily used with Splunk Enterprise Security's asset database.</p>
@@ -29,7 +35,7 @@ Full documentation can be found at [https://splunk.github.io/SA-CrowdstrikeDevic
 
 Info | Description
 ------|----------
-SA-CrowdstrikeDevices | 1.1.2 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) 
+SA-CrowdstrikeDevices | 1.1.3 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) 
 Splunk Enterprise Security Version (Required) | [7.x \| 6.x](https://splunkbase.splunk.com/app/263)
 CrowdStrike Devices Add-on (Required) | [3.x](https://splunkbase.splunk.com/app/5570)
 Add-on has a web UI | No, this add-on does not contain views.
