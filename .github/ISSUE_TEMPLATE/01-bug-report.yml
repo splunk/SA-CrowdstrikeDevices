@@ -1,0 +1,72 @@
+name: Report a bug
+description: Something is not working? Report a bug
+title: "[Bug]: "
+assignees:
+  - ZachTheSplunker
+labels:
+  - bug
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: >-
+        Please give a detailed description of the issue. Be as specific as
+        possible. If you have found a workaround or a fix for the problem,
+        please let us know. Include screenshots (if applicable).
+    validations:
+      required: true
+
+  - type: textarea
+    id: related-links
+    attributes:
+      label: Related links
+      description: >-
+        Please list all links to the sections of
+        [the documentation](https://splunk.github.io/SA-CrowdstrikeDevices/) that
+        are relevant to the bug in order to show that you have consulted and
+        thoroughly read it. Additionally, list links to possibly related open
+        and closed [issues](https://github.com/splunk/SA-CrowdstrikeDevices/issues).
+      value: |-
+        - [Example Issue](https://splunk.github.io/SA-CrowdstrikeDevices/)
+        -
+    validations:
+      required: true
+
+  - type: input
+    id: sa-version
+    attributes:
+      label: SA-CrowdstrikeDevices Version
+      description: >-
+        Which version of this app (SA-CrowdstrikeDevices) are you using?
+      placeholder: |-
+        1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: ta-version
+    attributes:
+      label: CrowdStrike Devices Add-on Version
+      description: >-
+        Which version of the required Add-on (CrowdStrike Devices Add-on) are you using? https://splunkbase.splunk.com/app/5570
+      placeholder: |-
+        3.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: splunk-version
+    attributes:
+      label: Splunk Version
+      description: >-
+        Which version of Splunk are you using?
+      placeholder: |-
+        9.0.1
+    validations:
+      required: true
+  
+  - type: markdown
+    attributes:
+      value: |
+        '## Thank you for taking the time to fill out this bug report!'
