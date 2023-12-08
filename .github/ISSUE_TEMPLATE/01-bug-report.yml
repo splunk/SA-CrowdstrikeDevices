@@ -49,7 +49,7 @@ body:
     attributes:
       label: CrowdStrike Devices Add-on Version
       description: >-
-        Which version of the required Add-on (CrowdStrike Devices Add-on) are you using? https://splunkbase.splunk.com/app/5570
+        Which version of the required Add-on ([CrowdStrike Devices Add-on](https://splunkbase.splunk.com/app/5570)) are you using? 
       placeholder: |-
         3.0.0
     validations:

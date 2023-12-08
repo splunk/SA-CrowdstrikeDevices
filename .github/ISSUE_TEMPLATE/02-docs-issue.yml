@@ -1,0 +1,37 @@
+name: Report an issue with the docs
+description: Something wrong with the docs? Report a documentation issue
+title: "[Docs]: "
+assignees:
+  - ZachTheSplunker
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: >-
+        Please describe the issue found in the [documentation](https://splunk.github.io/SA-CrowdstrikeDevices/) or an improvement that can be made.
+    validations:
+      required: true
+
+  - type: textarea
+    id: related-links
+    attributes:
+      label: Related links
+      description: >-
+        Please list all links to the sections of [our documentation](https://splunk.github.io/SA-CrowdstrikeDevices/) that are impacted by the issue you described above.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-change
+    attributes:
+      label: Proposed change (optional)
+      description: >-
+        Optionally provide an improvement proposal by describing your suggestion or create a pull request after submitting this report. Be sure to reference this issue in your pull request.
+
+  - type: markdown
+    attributes:
+      value: |
+        '## Thank you for taking the time to fill out this Docs Issue Report!'
