@@ -27,3 +27,7 @@ body:
       value: |-
         - [Feature Request](https://splunk.github.io/SA-CrowdstrikeDevices/)
         -
+
+  - type: markdown
+    attributes:
+      value: '## Thank you for taking the time to fill out this feature request!'
