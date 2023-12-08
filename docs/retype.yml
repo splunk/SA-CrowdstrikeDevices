@@ -13,5 +13,9 @@ links:
   link: https://splunkbase.splunk.com/app/6573
   target: blank
   icon: apps
+- text: GitHub
+  link: https://github.com/splunk/SA-CrowdstrikeDevices/releases
+  target: blank
+  icon: mark-github
 markdown:
   lineBreaks: hard
