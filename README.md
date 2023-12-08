@@ -11,7 +11,7 @@
 [![Splunk ES Compatibility](https://img.shields.io/badge/Splunk%20ES%20Compatibility-7.x%20|%206.x-success)](https://splunkbase.splunk.com/app/263)
 [![CrowdStrike Add-on Compatibility](https://img.shields.io/badge/CrowdStrike%20Addon%20Compatibility-3.x-success)](https://splunkbase.splunk.com/app/5570)
 ![Splunk Cloud Compatibility](https://img.shields.io/badge/Splunk%20Cloud%20Ready-Victoria%20|%20Classic-informational?logo=splunk)
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B8617%2Fgithub.com%2Fsplunk%2FSA-CrowdstrikeDevices.svg?type=small)](https://app.fossa.com/projects/custom%2B8617%2Fgithub.com%2Fsplunk%2FSA-CrowdstrikeDevices?ref=badge_small)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FZachChristensen28%2FSA-CrowdstrikeDevices.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FZachChristensen28%2FSA-CrowdstrikeDevices?ref=badge_small)
 ![Splunkbase Downloads](https://img.shields.io/endpoint?color=%23&url=https%3A%2F%2Fsplunkbasebadge.livehybrid.com%2Fv1%2Fdownloads%2F6573)
 
 > [!IMPORTANT]
