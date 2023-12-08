@@ -1,7 +1,10 @@
 ---
 icon: home
 label: Home
+image: static/hero.webp
 ---
+
+![](static/hero.webp)
 
 # Welcome to the Docs!
 
@@ -13,7 +16,7 @@ This Supporting add-on is only intended to work with [Splunk Enterprise Security
 
 > __*Disclaimer*__
 > 
-> *This Splunk Supporting Add-on is __not__ affiliated with [__CrowdStrike, Inc.__ <small>:icon-link-external:</small>][crowdstrike]{ target="blank" } and is not sponsored or sanctioned by the CrowdStrike team. As such, the included documentation does not contain information on how to get started with CrowdStrike. Rather, this documentation serves as a guide to use CrowdStrike device data with Splunk Enterprise Security. Please visit [https://www.crowdstrike.com <small>:icon-link-external:</small>][crowdstrike]{ target="blank" } for more information about CrowdStrike.*
+> *This Splunk Supporting Add-on is __not__ affiliated with [__CrowdStrike, Inc.__ <small>:icon-link-external:</small>][crowdstrike]{ target="blank" } and is not sponsored or sanctioned by the CrowdStrike team. Please visit [https://www.crowdstrike.com <small>:icon-link-external:</small>][crowdstrike]{ target="blank" } for more information about CrowdStrike.*
 
 ## Assumptions
 
@@ -27,7 +30,7 @@ This documentation assumes the following:
 
 Info | Description
 ------|----------
-SA-CrowdstrikeDevices | 1.1.2 - [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6573){ target="blank" } 
+SA-CrowdstrikeDevices | 1.1.3 - [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6573){ target="blank" } 
 Splunk Enterprise Security Version <small>(Required)</small> | [7.x \| 6.x <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/263){ target="blank" }
 CrowdStrike Devices Add-on <small>(Required)</small> | [3.x <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/5570){ target="blank" }
 Add-on has a web UI | No, this add-on does not contain views.

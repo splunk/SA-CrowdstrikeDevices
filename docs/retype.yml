@@ -1,21 +1,34 @@
 input: .
 output: .retype
 url: splunk.github.io/SA-CrowdstrikeDevices/
+
 branding:
   title: SA-CrowdstrikeDevices
-  label: v1.1.2
-  colors:
-    label:
-      text: "#fff"
-      background: "#FC0000"
+  label: v1.1.3
+  logo: static/site-logo.webp
+
 links:
 - text: Splunkbase
   link: https://splunkbase.splunk.com/app/6573
   target: blank
   icon: apps
+
 - text: GitHub
   link: https://github.com/splunk/SA-CrowdstrikeDevices/releases
   target: blank
   icon: mark-github
+
+- text: Issues
+  link: https://github.com/splunk/SA-CrowdstrikeDevices/issues
+  icon: comment-discussion
+  target: blank
+
+footer:
+  links:
+    - text: License - SPLUNK GENERAL TERMS
+      link: https://www.splunk.com/en_us/legal/splunk-general-terms.html
+      target: blank
+      icon: shield-check
+
 markdown:
   lineBreaks: hard

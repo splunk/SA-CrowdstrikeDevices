@@ -8,9 +8,23 @@ label: Releases
 
 Latest release can be found on [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6573){ target="blank" }.
 
-## v1.1.2 [!badge text="LATEST" variant="info"]
+## v1.1.3 [!badge text="LATEST" variant="info" icon="package"]
 
-Released: December 1, 2023
+Released: [December 7, 2023 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/releases/tag/v1.1.3){ target="blank" }
+
++++ Improved :icon-thumbsup:
+- [x] Added managed configurations for Splunk Enterprise Security to control retention of lookup file --> /start/scheduled-search.md
++++ Deprecated :icon-diff-removed:
+- [x] Deprecating use of the search macro "sa_crowdstrike_retention" and the corresponding saved search.
++++
+
+Full Changelog: [v1.1.2...v1.1.3 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/compare/v1.1.1...v1.1.2){ target="blank" }
+
+---
+
+## v1.1.2
+
+Released: [December 1, 2023 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/releases/tag/v1.1.2){ target="blank" }
 
 +++ New :icon-shield-check:
 - [x] SplunkWorks updates
