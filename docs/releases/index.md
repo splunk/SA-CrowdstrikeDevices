@@ -13,7 +13,7 @@ Latest release can be found on [Splunkbase <small>:icon-link-external:</small>](
 Released: [December 7, 2023 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/releases/tag/v1.1.3){ target="blank" }
 
 +++ Improved :icon-thumbsup:
-- [x] Added managed configurations for Splunk Enterprise Security to control retention of lookup file --> /start/scheduled-search.md
+- [x] Added managed configurations for Splunk Enterprise Security to control retention of lookup file --> [Schedule Search](/start/scheduled-search.md){ target="blank" }
 +++ Deprecated :icon-diff-removed:
 - [x] Deprecating use of the search macro "sa_crowdstrike_retention" and the corresponding saved search.
 +++
