@@ -7,6 +7,9 @@
 
 [![Splunk Subreddit](https://img.shields.io/badge/-r%2FSplunk-white?logo=reddit&labelColor=gray&link=https%3A%2F%2Freddit.com%2Fr%2FSplunk)](https://www.reddit.com/r/Splunk/)
 [![Splunk Slack](https://img.shields.io/badge/splunk--usergroups-white?logo=slack&labelColor=gray&link=https%3A%2F%2Fsplk.it%2Fslack)](https://splk.it/slack)
+[![Splunk Community](https://img.shields.io/badge/Splunk_Community-white?logo=splunk&labelColor=gray)](https://community.splunk.com/t5/c-oqeym24965/SA-CrowdstrikeDevices+for+Enterprise+Security/pd-p/6573)
+
+
 
 <div align="center">
 
