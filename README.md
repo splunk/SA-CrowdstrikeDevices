@@ -7,6 +7,8 @@
 
 [![Splunk Subreddit](https://img.shields.io/badge/-r%2FSplunk-white?logo=reddit&labelColor=gray&link=https%3A%2F%2Freddit.com%2Fr%2FSplunk)](https://www.reddit.com/r/Splunk/)
 [![Splunk Slack](https://img.shields.io/badge/splunk--usergroups-white?logo=slack&labelColor=gray&link=https%3A%2F%2Fsplk.it%2Fslack)](https://splk.it/slack)
+[![Splunk Community](https://img.shields.io/badge/Splunk%20Community-white?style=gray&logo=splunk&logoColor=whitte&labelColor=gray)](https://community.splunk.com/)
+
 
 <div align="center">
 
