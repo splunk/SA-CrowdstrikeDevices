@@ -38,7 +38,7 @@ This supporting add-on comes with prebuilt content for CrowdStrike device data t
 
 Info | Description
 ------|----------
-SA-CrowdstrikeDevices | 1.1.3 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) 
+SA-CrowdstrikeDevices | 1.1.4 - [Splunkbase](https://splunkbase.splunk.com/app/6573/) 
 Splunk Enterprise Security Version (Required) | [7.x \| 6.x](https://splunkbase.splunk.com/app/263)
 CrowdStrike Devices Add-on (Required) | [3.x](https://splunkbase.splunk.com/app/5570)
 Add-on has a web UI | No, this add-on does not contain views.

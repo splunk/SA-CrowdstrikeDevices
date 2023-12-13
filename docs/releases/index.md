@@ -8,7 +8,23 @@ label: Releases
 
 Latest release can be found on [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6573){ target="blank" }.
 
-## v1.1.3 [!badge text="LATEST" variant="info" icon="package"]
+## v1.1.4 [!badge text="LATEST" variant="info" icon="package"]
+
+Released: [December 12, 2023 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/releases/tag/v1.1.4){ target="blank" }
+
++++ Fixed :icon-bug:
+- [x] Fixed location of the "static" directory. Moved from the "default" directory to the project root. 
+
+!!!important Note
+This has no functional updates.
+!!!
++++ 
+
+Full Changelog: [v1.1.3...v1.1.4 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/compare/v1.1.1...v1.1.2){ target="blank" }
+
+---
+
+## v1.1.3
 
 Released: [December 7, 2023 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/releases/tag/v1.1.3){ target="blank" }
 
