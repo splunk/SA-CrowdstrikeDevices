@@ -8,6 +8,9 @@ on:
     paths:
       - "SA-CrowdstrikeDevices/**"
 
+permissions:
+  contents: write
+
 jobs:
   call-packaging-workflow:
     uses: ZachTheSplunker/app-wfa/.github/workflows/release.yml@main
