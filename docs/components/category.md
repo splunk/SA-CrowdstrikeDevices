@@ -26,6 +26,7 @@ dvc_name | `falcon_device.system_product_name` | hp_elitebook_850_g7_notebook_pc
 external_ip | `falcon_device.external_ip` | 0.0.0.0
 reduced_functionality_mode | `falcon_device.reduced_functionality_mode` | no
 splunk_last_update | n/a | 08/26/22 18:54:42 MDT
+serial_number | `falcon_device.serial_number` | ec111c98-90c2-9352-bff0-3bd026111903
 
 ### Full example of category value
 
@@ -52,5 +53,6 @@ os_platform: Windows
 os_version: 10.0.19044.1889
 provision_status: Provisioned
 reduced_functionality_mode: no
+serial_number: ec111c98-90c2-9352-bff0-3bd026111903
 splunk_last_updated: 03/27/23 02:09:24 UTC
 ```
