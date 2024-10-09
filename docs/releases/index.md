@@ -8,7 +8,24 @@ label: Releases
 
 Latest release can be found on [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6573){ target="blank" }.
 
-## v1.1.4 [!badge text="LATEST" variant="info" icon="package"]
+## v1.1.5 [!badge text="LATEST" variant="info" icon="package"]
+
+Released: [October 8, 2024 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/releases/tag/v1.1.5){ target="blank" }
+
++++ New :icon-shield-check:
+- [x] Added CSV lookup for ES to use.
+- [x] Added Serial Number to category field - feature request [#67](https://github.com/splunk/SA-CrowdstrikeDevices/issues/67){ target="blank" }
++++ Improved :icon-thumbsup:
+- [x] Disabled KVstore replication to improve performance.
+- [x] Increased batch size of KVstore lookup to improve performance. 
+- [x] Removed type definition for KVstore fields. 
++++ 
+
+Full Changelog: [v1.1.4...v1.1.5 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/compare/v1.1.4...v1.1.5){ target="blank" }
+
+---
+
+## v1.1.4
 
 Released: [December 12, 2023 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/releases/tag/v1.1.4){ target="blank" }
 
@@ -20,7 +37,7 @@ This has no functional updates.
 !!!
 +++ 
 
-Full Changelog: [v1.1.3...v1.1.4 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/compare/v1.1.1...v1.1.2){ target="blank" }
+Full Changelog: [v1.1.3...v1.1.4 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/compare/v1.1.3...v1.1.4){ target="blank" }
 
 ---
 
@@ -34,7 +51,7 @@ Released: [December 7, 2023 <small>:icon-link-external:</small>](https://github.
 - [x] Deprecating use of the search macro "sa_crowdstrike_retention" and the corresponding saved search.
 +++
 
-Full Changelog: [v1.1.2...v1.1.3 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/compare/v1.1.1...v1.1.2){ target="blank" }
+Full Changelog: [v1.1.2...v1.1.3 <small>:icon-link-external:</small>](https://github.com/splunk/SA-CrowdstrikeDevices/compare/v1.1.2...v1.1.3){ target="blank" }
 
 ---
 

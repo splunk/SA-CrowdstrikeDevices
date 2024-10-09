@@ -8,3 +8,4 @@ venv
 Pipfile**
 retype.manifest
 .retype/**
+package-lock.json

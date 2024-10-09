@@ -5,8 +5,9 @@ Below is a table that list all configuration for this add-on.
 Name | Type | Web Location | CLI Location\* | Description
 ---- | ---- | ------------ | ------------- | -----------
 CrowdStrike Devices Lookup - Gen | Saved Search | Settings > Searches reports, and alerts | savedsearches.conf | Populates the lookup file `crowdstrike_devices`.
-CrowdStrike Devices Lookup - Cleanup | Saved Search | Settings > Searches reports, and alerts | savedsearches.conf | removes old entries from kvstore lookup: `crowdstrike_devices`.
+\[Deprecated\] CrowdStrike Devices Lookup - Cleanup | Saved Search | Settings > Searches reports, and alerts | savedsearches.conf | removes old entries from kvstore lookup: `crowdstrike_devices`.
 crowdstrike_devices | lookup | Settings > Lookups > Lookup definitions | transforms.conf | Lookup definition for the KVStore collection `crowdstrike_devices_collection`.
+crowdstrike_devices_es | lookup | Settings > Lookups > Lookup definitions | transforms.conf | Lookup definition for the csv lookup used by Splunk Enterprise Security.
 crowdstrike_devices_collection | KVStore collection | n/a\*\* | collections.conf | KVStore configuration.
 sa_crowdstrike_index | Search macro | Settings > Advanced Search > Search Macros | macros.conf | Index definition for the crowdstrike index that contains the sourcetype `crowdstrike:device:json`.
 sa_crowdstrike_retention | Search macro | Settings> Advanced Search > Search Macros | macros.conf | The amount of time for the device not being updated before it is removed from the lookup. `default "-2d"`
